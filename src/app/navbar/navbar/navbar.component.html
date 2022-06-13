@@ -1,0 +1,7 @@
+<div class="top-links" *ngIf="links.length > 0;">
+  <ul class="top-links--list">
+    <li class="top-links--link" *ngFor="let link of links">
+      <a [href]="link.url">{{link.title}}</a>
+    </li>
+  </ul>
+</div>

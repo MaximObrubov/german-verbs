@@ -99,6 +99,8 @@
               "src/assets"
             ],
             "styles": [
+              "src/bootstrap.min.css",
+              "src/bootstrap/theme.min.css",
               "src/styles.scss"
             ],
             "scripts": []

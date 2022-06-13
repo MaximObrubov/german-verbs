@@ -1,0 +1,28 @@
+<div class="verbs" *ngIf="verbs.length > 0; else noVerbs">
+  <table>
+    <thead>
+      <tr>
+        <th>Verb</th>
+        <th>Preposition</th>
+        <th>Casus</th>
+        <th>Meaning</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let verb of verbs">
+        <td>{{ verb.verb }}</td>
+        <td>{{ verb.preposition }}</td>
+        <td>{{ verb.casus }}</td>
+        <td>{{ verb.meaning }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<ng-template #noVerbs>
+  <div class="verbs">
+    <div class="alert warn">
+      No verbs found
+    </div>
+  </div>
+</ng-template>

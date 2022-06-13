@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'german-verbs';
+
+  links = [
+    {url: "/game", title: "Match Game"}
+  ]
 }

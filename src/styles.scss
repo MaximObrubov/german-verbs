@@ -1,1 +1,116 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(./normalize.scss);
+
+:root {
+  --font-size: 15px;
+  --line-height: 19px;
+  --container-width: 1024px;
+
+  // NOTE: colors
+  --text-main-color: #444;
+  --text-disabled-color: #c3c3c3;
+  --text-headings-color: #000;
+  --primary-color: #4b5291;
+  --accent-color: rgb(129, 67, 230);
+  // QUESTION: hsl not working
+  // --accent-color: hsl(from var(--color-primary) h s calc(l - 5%));
+  --success-color: rgb(109, 173, 36);
+  --warning-color: rgb(192, 65, 65);
+
+  // NOTE: grids
+  --grid-form-template: 150px auto;
+}
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+  font-size: 16px;
+  color: var(--text-main-color);
+}
+
+body {
+  padding-bottom: 35px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-headings-color);
+}
+
+.container {
+  width: var(--container-width);
+  margin: 0 auto;
+  padding: 1em 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+ul li::before {
+  content: "";
+  width: 0.5em;
+  height: 0.5em;
+  margin-right: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: var(--primary-color);
+}
+
+label {
+  position: relative;
+}
+
+ul.errors {
+  padding-top: 8px;
+  list-style-type: disc;
+  color: var(--warning-color);
+  padding-left: 18px;
+  li::before { display: none; }
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password],
+textarea {
+  padding: 3px 7px;
+  background-color: white;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: 2px solid var(--text-main-color);
+
+  &:disabled {
+    border-color: var(--text-disabled-color);
+    color: var(--text-disabled-color);
+  }
+
+  + ul.errors {
+    display: none;
+    position: relative;
+  }
+}
+
+input[type=text].ng-touched,
+input[type=email].ng-touched,
+input[type=tel].ng-touched,
+input[type=password].ng-touched,
+textarea.ng-touched {
+  &.ng-invalid {
+    color: var(--warning-color);
+    border-color: var(--warning-color);
+
+    + .errors {
+      display: block;
+    }
+  }
+
+  &.ng-valid { color: var(--success-color); border-color: var(--success-color); }
+}
