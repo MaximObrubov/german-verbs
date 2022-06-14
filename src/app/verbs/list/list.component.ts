@@ -9,13 +9,17 @@ import { VerbsService } from 'src/app/services/verbs.service';
 })
 export class ListComponent implements OnInit {
 
-  public verbs: Array<VerbWithPrepostion>;
+  public verbs: {[key: string]: Array<VerbWithPrepostion>}
 
-  constructor(vs: VerbsService) {
-    this.verbs = vs.verbs;
+  constructor(private vs: VerbsService) {
+    this.verbs = this.vs.sortedByPreposition();
   }
 
   ngOnInit(): void {
+  }
+
+  get prepositions() {
+    return this.vs.sortedPrepositions();
   }
 
 }
