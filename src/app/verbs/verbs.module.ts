@@ -3,19 +3,21 @@ import { CommonModule } from '@angular/common';
 import { ListComponent } from './list/list.component';
 import { VerbsService } from '../services/verbs.service';
 import { SearchComponent } from './search/search.component';
+import { ListPageComponent } from './list-page/list-page.component';
 
 
 
 @NgModule({
   declarations: [
     ListComponent,
-    SearchComponent
+    SearchComponent,
+    ListPageComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    ListComponent
+    ListPageComponent,
   ],
   providers: [VerbsService]
 })

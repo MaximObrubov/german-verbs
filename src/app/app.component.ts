@@ -10,6 +10,6 @@ export class AppComponent {
 
   links = [
     {url: "/game", title: "Match Game"},
-    {url: "/irregular", title: "Irregular verbs"},
+    // {url: "/irregular", title: "Irregular verbs"},
   ]
 }
