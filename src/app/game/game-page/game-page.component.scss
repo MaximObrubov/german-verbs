@@ -1,0 +1,25 @@
+.game {
+  padding: 2em;
+  border-radius: 0.5em;
+  border: 1px solid var(--accent-color);
+  background: var(--primary-color);
+  margin-bottom: 2rem;
+
+  &--row {
+    display: grid;
+    justify-items: stretch;
+    grid-template-columns: repeat(4, 1fr);
+    // grid-template-columns: auto;
+  }
+
+  &--plate {
+    display: inline-block;
+    margin: 1rem;
+    background-color: #fff;
+    color: var(--accent-color);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 1em 1.5em;
+    border-radius: 0.5em;
+  }
+}

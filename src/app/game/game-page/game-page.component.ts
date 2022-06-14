@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { VerbWithPrepostion } from 'src/app/services/verb';
+import { VerbsService } from 'src/app/services/verbs.service';
 
 @Component({
   selector: 'app-game-page',
@@ -7,7 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GamePageComponent implements OnInit {
 
-  constructor() { }
+  VERBS_COUNT = 6;
+
+  verbs: Array<VerbWithPrepostion>;
+
+  constructor(private vs: VerbsService) {
+    this.verbs = vs.random(this.VERBS_COUNT);
+   }
 
   ngOnInit(): void {
   }

@@ -1,1 +1,8 @@
-<p>game-page works!</p>
+<div class="game">
+  <div class="game--row" *ngFor="let verb of verbs">
+    <div class="game--plate">{{ verb.verb }}</div>
+    <div class="game--plate">{{ verb.preposition }}</div>
+    <div class="game--plate">{{ verb.casus }}</div>
+    <div class="game--plate">{{ verb.meaning }}</div>
+  </div>
+</div>

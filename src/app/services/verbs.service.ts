@@ -33,6 +33,22 @@ export class VerbsService {
     return this._unique(this._verbs.map(v => v.preposition).sort());
   }
 
+  random(count: number) {
+    const rands: Array<number> = [];
+    const l = this._verbs.length;
+
+    while(count--) {
+      let rand = Math.floor(Math.random() * l);
+
+      while (rands.indexOf(rand) > -1) {
+        rand = Math.floor(Math.random() * l);
+      }
+      rands.push(rand);
+    }
+
+    return rands.map(index => this._verbs[index]);
+  }
+
   _unique(arr: Array<any>) {
     return [...new Set(arr)];
   }
