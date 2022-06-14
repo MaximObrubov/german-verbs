@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'german-verbs';
 
   links = [
-    {url: "/game", title: "Match Game"},
+    {url: "game", title: "Match Game"},
     // {url: "/irregular", title: "Irregular verbs"},
   ]
 }
