@@ -81,13 +81,6 @@ input[type=email],
 input[type=tel],
 input[type=password],
 textarea {
-  padding: 3px 7px;
-  background-color: white;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  box-shadow: none;
-  border: 2px solid var(--text-main-color);
-
   &:disabled {
     border-color: var(--text-disabled-color);
     color: var(--text-disabled-color);
@@ -114,4 +107,18 @@ textarea.ng-touched {
   }
 
   &.ng-valid { color: var(--success-color); border-color: var(--success-color); }
+}
+
+.alert-primary {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
 }

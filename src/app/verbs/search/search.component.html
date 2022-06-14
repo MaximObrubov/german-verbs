@@ -1,0 +1,23 @@
+<div class="search">
+  <fieldset>
+    <input
+      class="form-control"
+      type="text"
+      (keyup)="onKeyUp($event)"
+      placeholder="Search.."
+    />
+  </fieldset>
+
+
+  <ng-container *ngIf="results">
+    <div class="result alert alert-primary" *ngIf="results.length > 0; else noResult">
+      <div class="verb" *ngFor="let verb of results">
+        {{ verb.verb }} {{ verb.preposition }} + ({{verb.casus}}) - {{verb.meaning}}
+      </div>
+    </div>
+
+    <ng-template #noResult>
+      <div class="alert alert-warning">No results</div>
+    </ng-template>
+  </ng-container>
+</div>

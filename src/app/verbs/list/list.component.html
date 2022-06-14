@@ -1,36 +1,37 @@
-<!-- <div class="verbs" *ngIf="verbs.length > 0; else noVerbs"> -->
+
+
+<app-search></app-search>
+
 <div class="verbs">
-
   <div class="preposition-verbs-wrp" *ngFor="let prep of prepositions">
-
-    <h2>{{prep}}</h2>
-    <hr>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Verb</th>
-          <th>Preposition</th>
-          <th>Casus</th>
-          <th>Meaning</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let verb of verbs[prep]">
-          <td>{{ verb.verb }}</td>
-          <td>{{ verb.preposition }}</td>
-          <td>{{ verb.casus }}</td>
-          <td>{{ verb.meaning }}</td>
-        </tr>
-      </tbody>
-    </table>
+    <ng-container *ngIf="verbs[prep].length > 0; else noVerbs">
+      <h2>{{prep}}</h2>
+      <hr>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Verb</th>
+            <th>Preposition</th>
+            <th>Casus</th>
+            <th>Meaning</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let verb of verbs[prep]">
+            <td>{{ verb.verb }}</td>
+            <td>{{ verb.preposition }}</td>
+            <td>{{ verb.casus }}</td>
+            <td>{{ verb.meaning }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </ng-container>
   </div>
 </div>
 
 
 <ng-template #noVerbs>
-  <div class="verbs">
     <div class="alert warn">
       No verbs found
     </div>
-  </div>
 </ng-template>
