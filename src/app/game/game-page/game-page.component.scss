@@ -4,12 +4,12 @@
   border: 1px solid var(--accent-color);
   background: var(--primary-color);
   margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 
-  &--row {
-    display: grid;
-    justify-items: stretch;
-    grid-template-columns: repeat(4, 1fr);
-    // grid-template-columns: auto;
+
+  app-radio-group {
+    display: inline-block;
   }
 
   &--plate {

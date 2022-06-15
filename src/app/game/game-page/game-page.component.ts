@@ -10,17 +10,21 @@ import { VerbsService } from 'src/app/services/verbs.service';
 export class GamePageComponent implements OnInit {
 
   VERBS_COUNT = 6;
-
-  verbs: Array<VerbWithPrepostion>;
+  verbs: Array<string>;
+  prepostions: Array<string>;
+  cassen: Array<string>;
+  meanings: Array<string>;
 
   constructor(private vs: VerbsService) {
-    this.verbs = this.vs.random(this.VERBS_COUNT);
-
-
-
+    const verbs = this.vs.random(this.VERBS_COUNT);
+    this.verbs = verbs.map(v => v.verb);
+    this.prepostions = verbs.map(v => v.preposition);
+    this.meanings = verbs.map(v => v.meaning);
+    this.cassen = verbs.map(v => v.casus);
    }
 
   ngOnInit(): void {
   }
+  
 
 }
