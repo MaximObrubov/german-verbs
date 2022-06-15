@@ -19,7 +19,7 @@ export class SearchComponent implements OnInit {
   onKeyUp(event: KeyboardEvent) {
     const target = event.target as HTMLInputElement;
 
-    if (target && target.value) {
+    if (target && target.value && target.value.length > 2) {
       this.results = this.vs.find(target.value);
     } else {
       this.results = null;

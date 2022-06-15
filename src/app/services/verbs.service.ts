@@ -26,7 +26,7 @@ export class VerbsService {
   find(substr: string): Array<VerbWithPrepostion> {
     if (!substr) return [];
     if (substr.length < 3) return [];
-    return this._verbs.filter(v => v.verb.startsWith(substr));
+    return this._verbs.filter(v => v.verb.startsWith(substr.toLowerCase()));
   }
 
   sortedPrepositions() {

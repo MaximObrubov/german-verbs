@@ -11,7 +11,6 @@ import { VerbsModule } from './verbs/verbs.module';
 @NgModule({
   declarations: [
     AppComponent,
-    // ListPageComponent
   ],
   imports: [
     BrowserModule,

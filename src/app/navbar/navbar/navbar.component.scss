@@ -1,0 +1,21 @@
+.top-links {
+
+  display: inline-block;
+
+  &--list {
+    display: inline-block;
+    list-style: none;
+  }
+
+  &--link {
+    display: inline-block;
+
+    &::before {
+      display: none;
+    }
+
+    a {
+      text-transform: uppercase;
+    }
+  }
+}
