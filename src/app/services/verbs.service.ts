@@ -26,7 +26,9 @@ export class VerbsService {
   find(substr: string): Array<VerbWithPrepostion> {
     if (!substr) return [];
     if (substr.length < 3) return [];
-    return this._verbs.filter(v => v.verb.startsWith(substr.toLowerCase()));
+    // TODO: update data to have isReflecsive flag
+
+    return this._verbs.filter(v => (v.verb.replace('sich', "").trim().startsWith(substr.toLowerCase())));
   }
 
   sortedPrepositions() {

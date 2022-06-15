@@ -14,7 +14,10 @@ export class GamePageComponent implements OnInit {
   verbs: Array<VerbWithPrepostion>;
 
   constructor(private vs: VerbsService) {
-    this.verbs = vs.random(this.VERBS_COUNT);
+    this.verbs = this.vs.random(this.VERBS_COUNT);
+
+
+
    }
 
   ngOnInit(): void {
