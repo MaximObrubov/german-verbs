@@ -1,6 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { ThisReceiver } from '@angular/compiler';
+import { Component, ElementRef, OnInit } from '@angular/core';
 import { VerbWithPrepostion } from 'src/app/services/verb';
 import { VerbsService } from 'src/app/services/verbs.service';
+
+export interface Answer {
+  verb: string | null,
+  preposition: string | null,
+  casus: string | null,
+  meaning: string | null,
+}
+
 
 @Component({
   selector: 'app-game-page',
@@ -14,17 +23,106 @@ export class GamePageComponent implements OnInit {
   prepostions: Array<string>;
   cassen: Array<string>;
   meanings: Array<string>;
+  answer: Answer;
+  verbsWithPrepositions: Array<VerbWithPrepostion> = this.vs.random(this.VERBS_COUNT);
+  rightAnswers: Array<string> = this.verbsWithPrepositions.map(v => {
+    return this._stringifyVerbWithPreposition(v);
+  })
 
-  constructor(private vs: VerbsService) {
-    const verbs = this.vs.random(this.VERBS_COUNT);
-    this.verbs = verbs.map(v => v.verb);
-    this.prepostions = verbs.map(v => v.preposition);
-    this.meanings = verbs.map(v => v.meaning);
-    this.cassen = verbs.map(v => v.casus);
+  constructor(
+    public host: ElementRef,
+    private vs: VerbsService
+  ) {
+    this.verbs = this._shuffle(this.verbsWithPrepositions.map(v => v.verb));
+    this.prepostions = this._shuffle(this.verbsWithPrepositions.map(v => v.preposition));
+    this.meanings = this._shuffle(this.verbsWithPrepositions.map(v => v.meaning));
+    this.cassen = this._shuffle(this.verbsWithPrepositions.map(v => v.casus));
+
+    this.answer = {
+      verb: null,
+      preposition: null,
+      casus: null,
+      meaning: null,
+    }
    }
 
   ngOnInit(): void {
   }
-  
+
+  groupChanged(value: string, type: keyof Answer) {
+    this.answer[type] = value;
+
+    if (!~Object.values(this.answer).indexOf(null)) {
+      this._checkAnswer() ? this._hideSelected() : this._errorSelected();
+    }
+  }
+
+  _checkAnswer(): boolean {
+    return !!~this.rightAnswers.indexOf(this._stringifyVerbWithPreposition(this.answer as VerbWithPrepostion));
+  }
+
+  _hideSelected() {
+    const RIGHT_CLASS = "right";
+    const selectedElements = this.host.nativeElement.querySelectorAll("[type=radio]:checked");
+    this._resetAnswer();
+
+    selectedElements.forEach((element: HTMLInputElement) => {
+      element.checked = false;
+      (element.parentNode as HTMLElement).classList.add(RIGHT_CLASS);
+    });
+  }
+
+  _errorSelected() {
+    const WRONG_CLASS = "wrong";
+    const selectedElements = this.host.nativeElement.querySelectorAll("[type=radio]:checked");
+    this._resetAnswer();
+
+    selectedElements.forEach((element: HTMLInputElement) => {
+      element.checked = false;
+      (element.parentNode as HTMLElement).classList.add(WRONG_CLASS);
+    });
+
+    setTimeout(() => {
+      selectedElements.forEach((element: HTMLInputElement) => {
+        (element.parentNode as HTMLElement).classList.remove(WRONG_CLASS);
+      });
+    }, 400);
+  }
+
+  _resetAnswer() {
+    this.answer = {
+      verb: null,
+      preposition: null,
+      casus: null,
+      meaning: null,
+    }
+  }
+
+  _stringifyVerbWithPreposition(v: VerbWithPrepostion) {
+    return v.verb + v.preposition + v.casus + v.meaning;
+  }
+
+  /**
+   * Shuffles array, lodash copy
+   * @param arr
+   * @returns shuffled array
+   */
+  _shuffle(arr: Array<any>) {
+    const length = arr == null ? 0 : arr.length;
+    if (!length) return [];
+
+    const lastIndex = length - 1;
+    const result = [...arr];
+    let index = -1;
+
+    while (++index < length) {
+      const rand = index + Math.floor(Math.random() * (lastIndex - index + 1));
+      const value = result[rand];
+      result[rand] = result[index];
+      result[index] = value;
+    }
+    return result;
+  }
+
 
 }

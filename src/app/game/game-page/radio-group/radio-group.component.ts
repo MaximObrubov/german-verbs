@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-radio-group',
@@ -9,18 +9,15 @@ export class RadioGroupComponent implements OnInit {
 
   @Input() values!: Array<any>;
   @Input() name!: string;
+  @Output() selectedEvent = new EventEmitter<string>();
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-
   onChange(value: string) {
-    console.group('%c Custom log:', 'background: #00A9A5; color: #00D5DB; font-size: 16px;')
-    console.log(value)
-    console.groupEnd()
-
+    this.selectedEvent.emit(value);
   }
 
 }

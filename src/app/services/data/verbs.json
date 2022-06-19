@@ -96,7 +96,7 @@
     {"verb": "sich bewerben", "preposition": "um", "casus": "acc.", "meaning": "(to) apply for"},
     {"verb": "sich beziehen", "preposition": "auf", "casus": "acc.", "meaning": "(to) refer to"},
     {"verb": "sich entscheiden", "preposition": "für", "casus": "acc.", "meaning": "(to) decide on"},
-    {"verb": "sich entschließen", "preposition": "zu", "casus": "dat,", "meaning": "(to) resolve to"},
+    {"verb": "sich entschließen", "preposition": "zu", "casus": "dat.", "meaning": "(to) resolve to"},
     {"verb": "sich entschuldigen", "preposition": "für", "casus": "acc.", "meaning": "(to) apologize for"},
     {"verb": "sich entschuldigen", "preposition": "bei", "casus": "dat.", "meaning": "(to) apologize to"},
     {"verb": "sich erholen", "preposition": "von", "casus": "dat.", "meaning": "(to) recover from"},

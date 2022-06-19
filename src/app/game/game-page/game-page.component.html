@@ -1,6 +1,6 @@
 <div class="game">
-  <app-radio-group name="verb" [values]="verbs"></app-radio-group>
-  <app-radio-group name="preposition" [values]="prepostions"></app-radio-group>
-  <app-radio-group name="casus" [values]="cassen"></app-radio-group>
-  <app-radio-group name="meaning" [values]="meanings"></app-radio-group>
+  <app-radio-group (selectedEvent)="groupChanged($event, 'verb')" name="verb" [values]="verbs"></app-radio-group>
+  <app-radio-group (selectedEvent)="groupChanged($event, 'preposition')" name="preposition" [values]="prepostions"></app-radio-group>
+  <app-radio-group (selectedEvent)="groupChanged($event, 'casus')" name="casus" [values]="cassen"></app-radio-group>
+  <app-radio-group (selectedEvent)="groupChanged($event, 'meaning')" name="meaning" [values]="meanings"></app-radio-group>
 </div>

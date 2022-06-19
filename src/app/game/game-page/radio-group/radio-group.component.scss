@@ -1,29 +1,61 @@
+@keyframes zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0, 0);
+  }
+}
+
+
+
 .variant {
   label {
     cursor: pointer;
     display: block;
-    padding: 10px;
+    padding: 6px;
+    transition: transform 0.4s, max-height 0.4s, max-width 0.4s, padding 0.4s;
+    transform: scale(1);
 
     [type=radio] {
       opacity: 0;
       width: 0;
       height: 0;
+      display: none;
     }
 
     > span {
       background-color: #fff;
       text-align: center;
-      padding: 0.5em 1em;
+      padding: 1em 1em;
       font-weight: bold;
-      border-radius: 0.2em;
+      border-radius: 0.6em;
       color: var(--accent-color);
       border: 1px solid var(--primary-color);
       display: block;
+      transition: background 0.2s;
     }
 
     [type=radio]:checked + span {
       color: white;
-      background-color: var(--success-color);
+      background-color: var(--selected-color);
+    }
+
+    &.wrong {
+      > span {
+        background-color: var(--warning-color);
+        color: white;
+      }
+    }
+
+    &.right {
+      max-width: 0;
+      max-height: 0;
+      padding: 0;
+      // overflow: hidden;
+      // transform: scale(0);
+      overflow: hidden;
+      // animation: zoom-out 1s;
     }
   }
 }
