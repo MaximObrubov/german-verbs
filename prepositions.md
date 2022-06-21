@@ -15,7 +15,7 @@ zweifeln an dat. (to) doubt
 
 ## PREPOSITION AUF
 ```
-achten auf dat. (to) watch, take care of
+achten auf acc. (to) watch, take care of
 ankommen auf acc. (to) depend on
 antworten auf acc. (to) answer to
 aufpassen auf acc. (to) take care of
