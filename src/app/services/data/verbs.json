@@ -12,7 +12,7 @@
     {"verb": "teilnehmen", "preposition": "an", "casus": "dat.", "meaning": "(to) participate in"},
     {"verb": "zweifeln", "preposition": "an", "casus": "dat.", "meaning": "(to) doubt"},
 
-    {"verb": "achten", "preposition": "auf", "casus": "dat.", "meaning": "(to) watch, take care of"},
+    {"verb": "achten", "preposition": "auf", "casus": "acc.", "meaning": "(to) watch, take care of"},
     {"verb": "ankommen", "preposition": "auf", "casus": "acc.", "meaning": "(to) depend on"},
     {"verb": "antworten", "preposition": "auf", "casus": "acc.", "meaning": "(to) answer to"},
     {"verb": "aufpassen", "preposition": "auf", "casus": "acc.", "meaning": "(to) take care of"},
