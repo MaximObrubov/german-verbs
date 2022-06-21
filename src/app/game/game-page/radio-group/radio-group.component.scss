@@ -14,7 +14,7 @@
     cursor: pointer;
     display: block;
     padding: 6px;
-    transition: transform 0.4s, max-height 0.4s, max-width 0.4s, padding 0.4s;
+    // transition: transform 0.4s, max-height 0.4s, max-width 0.4s, padding 0.4s;
     transform: scale(1);
 
     [type=radio] {
@@ -49,13 +49,14 @@
     }
 
     &.right {
-      max-width: 0;
-      max-height: 0;
-      padding: 0;
+      // max-width: 0;
+      // max-height: 0;
+      // padding: 0;
+      // margin: 0;
       // overflow: hidden;
       // transform: scale(0);
       overflow: hidden;
-      // animation: zoom-out 1s;
+      animation: zoom-out 1s forwards;
     }
   }
 }
