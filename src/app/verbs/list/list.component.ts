@@ -22,4 +22,8 @@ export class ListComponent implements OnInit {
     return this.vs.sortedPrepositions();
   }
 
+  onVerbClick(verb: VerbWithPrepostion) {
+    verb.isShown = !verb.isShown;
+  }
+
 }

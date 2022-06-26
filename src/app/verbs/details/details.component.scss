@@ -1,0 +1,15 @@
+.verb-details {
+  text-align: center;
+  margin-bottom: 25px;
+
+  .verb-part {
+    font-size: 35px;
+    color: var(--primary-color);
+    margin: 1em 0.5em;
+  }
+
+  &--gif {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}

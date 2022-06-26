@@ -1,4 +1,23 @@
 .preposition-verbs-wrp {
   width: 100%;
   padding-top: 1.5em;
+
+  table {
+    user-select: none;
+
+    tr {
+      cursor: pointer;
+    }
+
+    .details-wrp {
+      max-height: 0;
+      overflow: hidden;
+      transition: all 0.3s;
+
+      &.shown {
+        max-height: auto;
+        background-color: var(--accent-color);
+      }
+    }
+  }
 }

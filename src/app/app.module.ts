@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { GameModule } from './game/game.module';
 import { NavbarModule } from './navbar/navbar.module';
 import { VerbsModule } from './verbs/verbs.module';
-// import { ListPageComponent } from './varbs/list-page/list-page.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,6 +18,7 @@ import { VerbsModule } from './verbs/verbs.module';
     NavbarModule,
     VerbsModule,
     GameModule,
+    HttpClientModule,
   ],
   bootstrap: [AppComponent]
 })

@@ -1,0 +1,9 @@
+<div class="verb-details">
+  <div class="verb-details--gif" *ngIf="verbGifSrc">
+    <img [src]="verbGifSrc">
+  </div>
+  <span class="verb-part verb-details--verb">{{verb.verb}}</span>
+  <span class="verb-part verb-details--preposition">{{verb.preposition}}</span>
+  <span class="verb-part verb-details--casus">{{verb.casus}}</span>
+  <span class="verb-part verb-details--meaning">{{verb.meaning}}</span>
+</div>

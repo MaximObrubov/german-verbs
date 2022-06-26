@@ -5,6 +5,8 @@ import { VerbsService } from '../services/verbs.service';
 import { SearchComponent } from './search/search.component';
 import { ListPageComponent } from './list-page/list-page.component';
 import { FastNavComponent } from './fast-nav/fast-nav.component';
+import { DetailsComponent } from './details/details.component';
+import { GifsService } from '../services/gifs.service';
 
 
 
@@ -13,7 +15,8 @@ import { FastNavComponent } from './fast-nav/fast-nav.component';
     ListComponent,
     SearchComponent,
     ListPageComponent,
-    FastNavComponent
+    FastNavComponent,
+    DetailsComponent
   ],
   imports: [
     CommonModule
@@ -21,6 +24,6 @@ import { FastNavComponent } from './fast-nav/fast-nav.component';
   exports: [
     ListPageComponent,
   ],
-  providers: [VerbsService]
+  providers: [VerbsService, GifsService]
 })
 export class VerbsModule { }

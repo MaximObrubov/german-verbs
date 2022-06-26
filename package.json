@@ -2,11 +2,12 @@
   "name": "german-verbs",
   "version": "0.0.0",
   "scripts": {
+    "envGen": "ts-node set-env.ts",
+    "start": "npm run envGen && node server",
+    "build": "PRODUCTION=true npm run envGen && ng build",
+    "test": "npm run envGen && ng test",
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "watch": "ng build --watch --configuration development"
   },
   "private": true,
   "dependencies": {
@@ -18,6 +19,8 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
+    "dotenv": "^16.0.1",
+    "hash-it": "^5.0.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -34,6 +37,7 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "ts-node": "^10.8.1",
     "typescript": "~4.6.2"
   }
 }
