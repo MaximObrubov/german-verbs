@@ -24,6 +24,10 @@ export class SearchComponent implements OnInit {
     } else {
       this.results = null;
     }
+  }
 
+  // TODO: remove duplicated method in list component
+  decode(v: VerbWithPrepostion) {
+    return btoa(encodeURIComponent(JSON.stringify(v)));
   }
 }

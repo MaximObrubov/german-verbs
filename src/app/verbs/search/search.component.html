@@ -12,7 +12,9 @@
   <ng-container *ngIf="results">
     <div class="result alert alert-primary" *ngIf="results.length > 0; else noResult">
       <div class="verb" *ngFor="let verb of results">
-        {{ verb.verb }} {{ verb.preposition }} + ({{verb.casus}}) - {{verb.meaning}}
+        <a href="#{{decode(verb)}}">
+          {{ verb.verb }} {{ verb.preposition }} + ({{verb.casus}}) - {{verb.meaning}}
+        </a>
       </div>
     </div>
 

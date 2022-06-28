@@ -26,4 +26,8 @@ export class ListComponent implements OnInit {
     verb.isShown = !verb.isShown;
   }
 
+  decode(v: VerbWithPrepostion) {
+    return btoa(encodeURIComponent(JSON.stringify(v)));
+  }
+
 }
