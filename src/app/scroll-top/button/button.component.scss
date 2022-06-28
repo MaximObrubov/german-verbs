@@ -1,0 +1,28 @@
+.scroll-top-button {
+  --scb-size: 55px;
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  background-color: var(--primary-color); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  opacity: 0;
+  z-index: -1;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: var(--scb-size);
+  text-align: center;
+  width: var(--scb-size);
+  transition: opacity 0.2s;
+
+  &.shown {
+    z-index: 1000;
+    opacity: 1;
+  }
+
+  &:hover {
+    background-color: vaar(--primary-hover-color); /* Add a dark-grey background on hover */
+  }
+}

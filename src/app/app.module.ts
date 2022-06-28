@@ -7,6 +7,7 @@ import { GameModule } from './game/game.module';
 import { NavbarModule } from './navbar/navbar.module';
 import { VerbsModule } from './verbs/verbs.module';
 import { HttpClientModule } from '@angular/common/http';
+import { ScrollTopModule } from './scroll-top/scroll-top.module';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
     VerbsModule,
     GameModule,
     HttpClientModule,
+    ScrollTopModule
   ],
   bootstrap: [AppComponent]
 })
