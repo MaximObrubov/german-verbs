@@ -22,6 +22,7 @@
     {"verb": "beharren", "preposition": "auf", "casus": "dat.", "meaning": "insist on"},
     {"verb": "beruhen", "preposition": "auf", "casus": "dat.", "meaning": "base on"},
     {"verb": "hoffen", "preposition": "auf", "casus": "acc.", "meaning": "hope for"},
+    {"verb": "verzichten", "preposition": "auf", "casus": "acc.", "meaning": "do without"},
     {"verb": "warten", "preposition": "auf", "casus": "acc.", "meaning": "wait for"},
 
 
@@ -40,17 +41,21 @@
     {"verb": "halten", "preposition": "für", "casus": "acc.", "meaning": "take for"},
     {"verb": "kämpfen", "preposition": "für", "casus": "acc.", "meaning": "fight for"},
     {"verb": "sein", "preposition": "für", "casus": "acc.", "meaning": "be for"},
+    {"verb": "stimmen", "preposition": "für", "casus": "acc.", "meaning": "vote for"},
     {"verb": "sorgen", "preposition": "für", "casus": "acc.", "meaning": "care for"},
     {"verb": "sprechen", "preposition": "für", "casus": "acc.", "meaning": "talk for (говорить за)"},
 
 
     {"verb": "einwilligen", "preposition": "in", "casus": "acc.", "meaning": "agree with"},
     {"verb": "geraten", "preposition": "in", "casus": "acc.", "meaning": "get into"},
+    {"verb": "teilen", "preposition": "in", "casus": "acc.", "meaning": "split into"},
+    {"verb": "unterrichten", "preposition": "in", "casus": "dat.", "meaning": "train in (smth)"},
 
     {"verb": "kämpfen", "preposition": "gegen", "casus": "acc.", "meaning": "fight against"},
     {"verb": "protestieren", "preposition": "gegen", "casus": "acc.", "meaning": "protest against"},
     {"verb": "sein", "preposition": "gegen", "casus": "acc.", "meaning": "be against"},
     {"verb": "sprechen", "preposition": "gegen", "casus": "acc.", "meaning": "talk against (говорить против)"},
+    {"verb": "verstossen", "preposition": "gegen", "casus": "acc.", "meaning": "break against (rule)"},
 
 
     {"verb": "anfangen", "preposition": "mit", "casus": "dat.", "meaning": "start with"},
@@ -122,6 +127,7 @@
     {"verb": "sagen", "preposition": "zu", "casus": "dat.", "meaning": "say to"},
     {"verb": "schicken", "preposition": "zu", "casus": "dat.", "meaning": "send to"},
     {"verb": "werden", "preposition": "zu", "casus": "dat.", "meaning": "become"},
+    {"verb": "zählen", "preposition": "zu", "casus": "dat.", "meaning": "classify as"},
 
     {"verb": "sich ärgern", "preposition": "über", "casus": "acc.", "meaning": "get angry about / with"},
     {"verb": "sich aufregen", "preposition": "über", "casus": "acc.", "meaning": "upset about"},
@@ -158,15 +164,20 @@
     {"verb": "sich schützen", "preposition": "vor", "casus": "dat.", "meaning": "protect oneself from"},
     {"verb": "sich sehnen", "preposition": "nach", "casus": "dat.", "meaning": "(жаждать)"},
     {"verb": "sich sorgen", "preposition": "um", "casus": "acc.", "meaning": "worry about / for"},
+    {"verb": "sich streiten", "preposition": "mit", "casus": "dat.", "meaning": "argue with"},
+    {"verb": "sich täuschen", "preposition": "in", "casus": "dat.", "meaning": "be disapointed in (smth)"},
     {"verb": "sich treffen", "preposition": "mit", "casus": "dat.", "meaning": "meet with"},
     {"verb": "sich treffen", "preposition": "zu", "casus": "dat.", "meaning": "meet for"},
     {"verb": "sich unterhalten", "preposition": "mit", "casus": "dat.", "meaning": "talk with"},
     {"verb": "sich unterhalten", "preposition": "über", "casus": "acc.", "meaning": "talk about"},
+    {"verb": "sich üben", "preposition": "in", "casus": "dat.", "meaning": "train in (smth)"},
     {"verb": "sich verabreden", "preposition": "mit", "casus": "dat.", "meaning": "arrange (to meet) with"},
     {"verb": "sich verabschieden", "preposition": "von", "casus": "dat.", "meaning": "say goodbye to"},
     {"verb": "sich verlassen", "preposition": "auf", "casus": "acc.", "meaning": "rely on"},
+    {"verb": "sich verlieben", "preposition": "in", "casus": "acc.", "meaning": "fall in love"},
     {"verb": "sich verstehen", "preposition": "mit", "casus": "dat.", "meaning": "get along with"},
     {"verb": "sich vorbereiten", "preposition": "auf", "casus": "acc.", "meaning": "prepare oneself for"},
+    {"verb": "sich wehren", "preposition": "gegen", "casus": "acc.", "meaning": "fight back"},
     {"verb": "sich wenden", "preposition": "an", "casus": "acc.", "meaning": "turn to"},
     {"verb": "sich wundern", "preposition": "über", "casus": "acc.", "meaning": "wonder about"}
   ]

@@ -22,7 +22,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 
 ## Deploy
-`ng build --base-href "https://maximobrubov.github.io/german-verbs/"`
+`npm run build`
 `npx angular-cli-ghpages --dir=dist/german-verbs`
 
 
