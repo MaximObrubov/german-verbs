@@ -7,15 +7,23 @@
   }
 }
 
-
+@keyframes squeeze {
+  100% {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+  }
+}
 
 .variant {
   label {
     cursor: pointer;
     display: block;
-    padding: 6px;
-    // transition: transform 0.4s, max-height 0.4s, max-width 0.4s, padding 0.4s;
-    transform: scale(1);
+    transition: all 0.4s;
+    transform: scale(1, 1);
+    box-sizing: border-box;
+    margin-bottom: 0;
 
     [type=radio] {
       opacity: 0;
@@ -34,6 +42,7 @@
       border: 1px solid var(--primary-color);
       display: block;
       transition: background 0.2s;
+      margin: 0 6px 10px;
     }
 
     [type=radio]:checked + span {
@@ -49,14 +58,20 @@
     }
 
     &.right {
-      // max-width: 0;
-      // max-height: 0;
-      // padding: 0;
-      // margin: 0;
-      // overflow: hidden;
-      // transform: scale(0);
-      overflow: hidden;
-      animation: zoom-out 1s forwards;
+      > span {
+        overflow: hidden;
+        animation: zoom-out, squeeze;
+        animation-delay: 0ms, 500ms;
+        animation-duration: 400ms, 600ms;
+        animation-fill-mode: forwards;
+      }
+    }
+  }
+
+  &-meaning {
+    label > span {
+      background-color: var(--accent-color);
+      color: white;
     }
   }
 }

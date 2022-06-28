@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-radio-group',
@@ -11,9 +11,21 @@ export class RadioGroupComponent implements OnInit {
   @Input() name!: string;
   @Output() selectedEvent = new EventEmitter<string>();
 
-  constructor() { }
+  constructor(public host: ElementRef) { }
 
   ngOnInit(): void {
+
+  }
+
+  ngAfterViewInit(): void {
+    const buttons = this.host.nativeElement.querySelectorAll("fieldset label span");
+    const pixelify = (val: number) => `${val}px`;
+    buttons.forEach((b: HTMLElement) => {
+      const rect = b.getBoundingClientRect();
+      b.style.height = pixelify(rect.height);
+      b.style.width = pixelify(rect.width);
+    });
+
   }
 
   onChange(value: string) {

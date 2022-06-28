@@ -1,4 +1,4 @@
-<fieldset class="variant">
+<fieldset class="variant variant-{{name}}">
   <label *ngFor="let v of values">
     <input type="radio" [name]="name" (change)="onChange(v)">
     <span>{{v}}</span>

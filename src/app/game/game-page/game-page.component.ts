@@ -1,5 +1,5 @@
 import { ThisReceiver } from '@angular/compiler';
-import { Component, ElementRef, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChildren } from '@angular/core';
 import { VerbWithPrepostion } from 'src/app/services/verb';
 import { VerbsService } from 'src/app/services/verbs.service';
 
