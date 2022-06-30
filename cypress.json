@@ -1,0 +1,7 @@
+{
+  "screenshotsFolder": "./cypress/snapshots/actual",
+  "trashAssetsBeforeRuns": true,
+  "baseUrl": "http://localhost:4200",
+  "defaultCommandTimeout": 2000,
+  "video": false
+}
