@@ -1,5 +1,7 @@
 import { ThisReceiver } from '@angular/compiler';
 import { Component, ElementRef, OnInit, ViewChildren } from '@angular/core';
+import { GifResponse } from 'src/app/services/gif-response';
+import { GifsService } from 'src/app/services/gifs.service';
 import { VerbWithPrepostion } from 'src/app/services/verb';
 import { VerbsService } from 'src/app/services/verbs.service';
 
@@ -19,6 +21,9 @@ export interface Answer {
 export class GamePageComponent implements OnInit {
 
   VERBS_COUNT = 6;
+  answersCount = 0;
+  CONGRAT_WORD = "success";
+  congratGif: string | null = null;
   verbs: Array<string>;
   prepostions: Array<string>;
   cassen: Array<string>;
@@ -31,7 +36,8 @@ export class GamePageComponent implements OnInit {
 
   constructor(
     public host: ElementRef,
-    private vs: VerbsService
+    private vs: VerbsService,
+    private gifService: GifsService,
   ) {
     this.verbs = this._shuffle(this.verbsWithPrepositions.map(v => v.verb));
     this.prepostions = this._shuffle(this.verbsWithPrepositions.map(v => v.preposition));
@@ -53,8 +59,23 @@ export class GamePageComponent implements OnInit {
     this.answer[type] = value;
 
     if (!~Object.values(this.answer).indexOf(null)) {
-      this._checkAnswer() ? this._hideSelected() : this._errorSelected();
+      if (this._checkAnswer()) {
+        this.answersCount++;
+        this._hideSelected();
+      } else {
+        this._errorSelected();
+      }
     }
+
+    if (this.answersCount === this.VERBS_COUNT) {
+      this.gifService.translate(this.CONGRAT_WORD).subscribe((congratResponse) => {
+        this.congratGif = (congratResponse as GifResponse).data.images.original.url;
+      });
+    }
+  }
+
+  reload() {
+    window.location.reload();
   }
 
   _checkAnswer(): boolean {

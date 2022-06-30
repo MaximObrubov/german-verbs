@@ -1,12 +1,14 @@
 .game {
-  padding: 2em;
-  border-radius: 0.5em;
   border: 1px solid var(--accent-color);
   background: var(--primary-color);
   margin-bottom: 2rem;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  border-radius: 0.5em;
+  padding: 2em;
 
+  &--variants {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 
   app-radio-group {
     display: inline-block;
@@ -18,8 +20,21 @@
     background-color: #fff;
     color: var(--accent-color);
     cursor: pointer;
+    user-select: none;
     font-weight: bold;
     padding: 1em 1.5em;
     border-radius: 0.5em;
+  }
+
+  &--congrat {
+    text-align: center;
+
+    h1 {
+      color: var(--accent-color);
+    }
+  }
+
+  &--congrat-img {
+    margin-bottom: 2em;
   }
 }
