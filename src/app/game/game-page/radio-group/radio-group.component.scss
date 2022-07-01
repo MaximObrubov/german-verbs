@@ -43,6 +43,7 @@
       display: block;
       transition: background 0.2s;
       margin: 0 6px 10px;
+      user-select: none;
     }
 
     [type=radio]:checked + span {

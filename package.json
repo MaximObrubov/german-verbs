@@ -5,6 +5,7 @@
     "envGen": "ts-node set-env.ts",
     "start": "npm run envGen && node server",
     "build": "PRODUCTION=true npm run envGen && ng build --base-href 'https://maximobrubov.github.io/german-verbs/'",
+    "deploy": "npx angular-cli-ghpages --dir=dist/german-verbs",
     "test": "npm run envGen && ng test",
     "ng": "ng",
     "watch": "ng build --watch --configuration development"
