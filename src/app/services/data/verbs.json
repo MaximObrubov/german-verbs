@@ -1,17 +1,17 @@
 {
   "verbs": [
     {"verb": "ändern", "preposition": "an", "casus": "dat.", "meaning": "change about"},
-    {"verb": "arbeiten", "preposition": "an", "casus": "dat.", "meaning": "work on"},
-    {"verb": "denken", "preposition": "an", "casus": "acc.", "meaning": "think of"},
+    {"verb": "arbeiten", "preposition": "an", "casus": "dat.", "meaning": "work on", "example": "Ich arbeite an einer Firma"},
+    {"verb": "denken", "preposition": "an", "casus": "acc.", "meaning": "think of", "example": "Ich denke an dich"},
     {"verb": "glauben", "preposition": "an", "casus": "acc." , "meaning": "believe in"},
     {"verb": "hängen", "preposition": "an", "casus": "dat.", "meaning": "hanging on"},
     {"verb": "hindern", "preposition": "an", "casus": "dat.", "meaning": "prevent from"},
     {"verb": "leiden", "preposition": "an", "casus": "dat.", "meaning": "suffer from"},
-    {"verb": "schicken", "preposition": "an", "casus": "acc.", "meaning": "send to"},
-    {"verb": "schreiben", "preposition": "an", "casus": "acc.", "meaning": "write to"},
+    {"verb": "schicken", "preposition": "an", "casus": "acc.", "meaning": "send to", "example": "Ich werde das an Sie schicken"},
+    {"verb": "schreiben", "preposition": "an", "casus": "acc.", "meaning": "write to", "example": "Ich werde das an Sie schreiben"},
     {"verb": "sterben", "preposition": "an", "casus": "acc.", "meaning": "die of"},
     {"verb": "teilnehmen", "preposition": "an", "casus": "dat.", "meaning": "participate in"},
-    {"verb": "zweifeln", "preposition": "an", "casus": "dat.", "meaning": "doubt"},
+    {"verb": "zweifeln", "preposition": "an", "casus": "dat.", "meaning": "doubt", "example": "ich zweifle an der Fähigkeit der Menschen, logisch zu denken"},
 
     {"verb": "achten", "preposition": "auf", "casus": "acc.", "meaning": "watch, take care of"},
     {"verb": "ankommen", "preposition": "auf", "casus": "acc.", "meaning": "depend on"},
@@ -98,7 +98,7 @@
 
     {"verb": "leiden", "preposition": "unter", "casus": "acc.", "meaning": "suffer from"},
 
-    {"verb": "abhängen", "preposition": "von", "casus": "dat.", "meaning": "depend on"},
+    {"verb": "abhängen", "preposition": "von", "casus": "dat.", "meaning": "depend on", "example": "Es hängt von vielen Sachen ab."},
     {"verb": "erfahren", "preposition": "von", "casus": "dat.", "meaning": "learn about"},
     {"verb": "erzählen", "preposition": "von", "casus": "dat.", "meaning": "tell about"},
     {"verb": "halten", "preposition": "von", "casus": "dat.", "meaning": "think of"},

@@ -1,6 +1,6 @@
 <div class="verb-details">
   <div class="verb-details--gif-block">
-    <h2>{{ verb.example }}</h2>
+    <div class="verb-details--example">{{ verb.example }}</div>
 
     <button class="btn btn-primary" (click)="showGif()">Show me the .gif!</button>
     <div class="verb-details--gif" *ngIf="verbGifSrc">
