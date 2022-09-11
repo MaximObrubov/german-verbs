@@ -25,9 +25,9 @@
               <td>{{ verb.meaning }}</td>
             </tr>
             <!-- TODO: remaster show/hidden logic -->
-            <tr [ngClass]="{'details-wrp': true, hidden: !verb.isShown, shown: !!verb.isShown}">
+            <tr [ngClass]="{'details-wrp': true, shown: verb === selected}">
               <td colspan="4">
-                <app-details [verb]="verb" [isOpen]="!!verb.isShown"></app-details>
+                <verb-details [verb]="verb"></verb-details>
               </td>
             </tr>
           </ng-container>

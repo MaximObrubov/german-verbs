@@ -1,9 +1,10 @@
 <div class="verb-details">
-  <div class="verb-details--gif" *ngIf="verbGifSrc">
-    <img [src]="verbGifSrc">
+  <div class="verb-details--gif-block">
+    <h2>{{ verb.example }}</h2>
+
+    <button class="btn btn-primary" (click)="showGif()">Show me the .gif!</button>
+    <div class="verb-details--gif" *ngIf="verbGifSrc">
+      <img [src]="verbGifSrc">
+    </div>
   </div>
-  <span class="verb-part verb-details--verb">{{verb.verb}}</span>
-  <span class="verb-part verb-details--preposition">{{verb.preposition}}</span>
-  <span class="verb-part verb-details--casus">{{verb.casus}}</span>
-  <span class="verb-part verb-details--meaning">{{verb.meaning}}</span>
 </div>

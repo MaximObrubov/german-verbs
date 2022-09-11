@@ -12,10 +12,12 @@
     .details-wrp {
       max-height: 0;
       overflow: hidden;
-      transition: all 0.3s;
+      // transition: all 0.3s;
+      visibility: collapse;
 
       &.shown {
-        max-height: auto;
+        max-height: fit-content;
+        visibility: visible;
         background-color: var(--accent-color);
       }
     }

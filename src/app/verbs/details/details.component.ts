@@ -4,7 +4,7 @@ import { GifsService } from 'src/app/services/gifs.service';
 import { VerbWithPrepostion } from 'src/app/services/verb';
 
 @Component({
-  selector: 'app-details',
+  selector: 'verb-details',
   templateUrl: './details.component.html',
   styleUrls: ['./details.component.scss']
 })
@@ -14,17 +14,15 @@ export class DetailsComponent implements OnInit {
 
   @Input() verb!: VerbWithPrepostion;
 
-  @Input() set isOpen(value: boolean | undefined) {
-    if (value) {
-      this.gifService.translate(this.verb.meaning).subscribe((response) => {
-        this.verbGifSrc = (response as GifResponse).data.images.downsized_large.url;
-      })
-    }
-  };
-
   constructor(private gifService: GifsService) { }
 
   ngOnInit(): void {
+  }
+
+  showGif() {
+    this.gifService.translate(this.verb.meaning).subscribe((response) => {
+      this.verbGifSrc = (response as GifResponse).data.images.downsized_large.url;
+    })
   }
 
 }

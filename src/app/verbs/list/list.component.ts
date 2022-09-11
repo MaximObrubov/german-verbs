@@ -11,7 +11,7 @@ export class ListComponent implements OnInit {
 
   public verbs: {[key: string]: Array<VerbWithPrepostion>}
 
-  private prev: VerbWithPrepostion | null = null;
+  public selected: VerbWithPrepostion | null = null;
 
   constructor(private vs: VerbsService) {
     this.verbs = this.vs.sortedByPreposition();
@@ -25,9 +25,7 @@ export class ListComponent implements OnInit {
   }
 
   onVerbClick(verb: VerbWithPrepostion) {
-    if (this.prev) this.prev.isShown = false;
-    verb.isShown = !verb.isShown;
-    this.prev = verb;
+    if (this.selected !== verb) this.selected = verb;
   }
 
   decode(v: VerbWithPrepostion) {
