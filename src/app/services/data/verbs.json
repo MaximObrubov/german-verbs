@@ -120,10 +120,18 @@
     {"verb": "sprechen", "preposition": "über", "casus": "acc.", "meaning": "talk about"},
     {"verb": "streiten", "preposition": "über", "casus": "acc.", "meaning": "argue about"},
 
-    {"verb": "bitten", "preposition": "um", "casus": "acc.", "meaning": "ask for"},
-    {"verb": "beneiden", "preposition": "um", "casus": "acc.", "meaning": "be jellous about"},
-    {"verb": "gehen", "preposition": "um", "casus": "acc.", "meaning": "revolve around"},
-    {"verb": "sinken", "preposition": "um", "casus": "acc.", "meaning": "go lower"},
+    {"verb": "bitten", "preposition": "um", "casus": "acc.", "meaning": "ask for", "examples": [
+      "Ich #habe euch um Ruhe #gebeten, weil ich lernen muss."
+    ]},
+    {"verb": "beneiden", "preposition": "um", "casus": "acc.", "meaning": "be jellous about", "examples": [
+      "Ich #beneide dich um deine Geduld."
+    ]},
+    {"verb": "gehen", "preposition": "um", "casus": "acc.", "meaning": "revolve around", "examples": [
+      "Gerüchte #gehen um."
+    ]},
+    {"verb": "sinken", "preposition": "um", "casus": "acc.", "meaning": "go lower", "examples": [
+      "Erwerbstätigen um 10% #sinken."
+    ]},
     {"verb": "steigen", "preposition": "um", "casus": "acc.", "meaning": "go upper"},
 
     {"verb": "leiden", "preposition": "unter", "casus": "acc.", "meaning": "suffer from", "examples": [
@@ -136,8 +144,12 @@
     {"verb": "erzählen", "preposition": "von", "casus": "dat.", "meaning": "tell about"},
     {"verb": "halten", "preposition": "von", "casus": "dat.", "meaning": "think of"},
     {"verb": "handeln", "preposition": "von", "casus": "dat.", "meaning": "be about"},
-    {"verb": "hören", "preposition": "von", "casus": "dat.", "meaning": "hear of"},
-    {"verb": "leben", "preposition": "von", "casus": "dat.", "meaning": "live on (little money)"},
+    {"verb": "hören", "preposition": "von", "casus": "dat.", "meaning": "hear about", "examples": [
+      "#Hast du von dem Umfall #gehört?"
+    ]},
+    {"verb": "leben", "preposition": "von", "casus": "dat.", "meaning": "live on (little money)", "examples": [
+      "Die Leute #leben von der Natur."
+    ]},
     {"verb": "reden", "preposition": "von", "casus": "dat.", "meaning": "talk about", "examples": [
       "Er #redet oft von seinen Eltern."
     ]},
@@ -173,8 +185,12 @@
     {"verb": "sich beschäftigen", "preposition": "mit", "casus": "dat.", "meaning": "deal with, to concern with"},
     {"verb": "sich beschweren", "preposition": "bei", "casus": "dat.", "meaning": "complain to"},
     {"verb": "sich beschweren", "preposition": "über", "casus": "dat.", "meaning": "complain about"},
-    {"verb": "sich beteiligen", "preposition": "an", "casus": "dat.", "meaning": "take part in"},
-    {"verb": "sich bewerben", "preposition": "bei", "casus": "dat.", "meaning": "apply at"},
+    {"verb": "sich beteiligen", "preposition": "an", "casus": "dat.", "meaning": "take part in", "examples": [
+      "Du #beteiligst #dich an den Ausgaben."
+    ]},
+    {"verb": "sich bewerben", "preposition": "bei", "casus": "dat.", "meaning": "apply at", "examples": [
+      "Ich #bewarb #mich um ein Praktikum für den Sommer."
+    ]},
     {"verb": "sich bewerben", "preposition": "um", "casus": "acc.", "meaning": "apply for"},
     {"verb": "sich beziehen", "preposition": "auf", "casus": "acc.", "meaning": "refer to"},
     {"verb": "sich entscheiden", "preposition": "für", "casus": "acc.", "meaning": "decide on"},

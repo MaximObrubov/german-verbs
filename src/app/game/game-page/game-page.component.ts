@@ -1,5 +1,6 @@
 import { ThisReceiver } from '@angular/compiler';
 import { Component, ElementRef, OnInit, ViewChildren } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 import { GifResponse } from 'src/app/services/gif-response';
 import { GifsService } from 'src/app/services/gifs.service';
 import { VerbWithPrepostion } from 'src/app/services/verb';
@@ -38,6 +39,8 @@ export class GamePageComponent implements OnInit {
     public host: ElementRef,
     private vs: VerbsService,
     private gifService: GifsService,
+    private title: Title,
+    private meta: Meta,
   ) {
     this.verbs = this._shuffle(this.verbsWithPrepositions.map(v => v.verb));
     this.prepostions = this._shuffle(this.verbsWithPrepositions.map(v => v.preposition));
@@ -50,9 +53,15 @@ export class GamePageComponent implements OnInit {
       casus: null,
       meaning: null,
     }
+    this.title.setTitle("Verben2Präpositionen Game");
    }
 
   ngOnInit(): void {
+    this.meta.addTags([
+      {name: "description", content: "German verbs with prepositions Game | Deutsche Verben mit Präpositionen; Match verb to preposition and case!"},
+      {name: "keywords", content: "Deutsch, Game, Match verb to preposition, German, language, Verbs list, Verbs, Verben, Verbs with prepositions"},
+      {name: "robots", content: "index, follow"},
+    ]);
   }
 
   groupChanged(value: string, type: keyof Answer) {
