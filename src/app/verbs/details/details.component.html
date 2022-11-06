@@ -3,10 +3,12 @@
     <h4>Beispiele:</h4>
     <div class="verb-details__examples" *ngIf="verb.examples?.length else noExamples">
       <ol>
-        <li
-          class="verb-details__example"
-          *ngFor="let example of verb.examples"
-          [innerHTML]="exampleHTML(example)"></li>
+        <ng-container *ngFor="let example of verb.examples">
+          <li class="verb-details__example">
+            <span [innerHTML]="exampleHTML(example)"></span>
+            <app-speaker [text]="example"></app-speaker>
+          </li>
+        </ng-container>
       </ol>
     </div>
 

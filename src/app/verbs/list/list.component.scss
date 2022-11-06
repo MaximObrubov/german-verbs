@@ -5,10 +5,6 @@
   table {
     user-select: none;
 
-    tr {
-      cursor: pointer;
-    }
-
     .details-wrp {
       max-height: 0;
       overflow: hidden;
@@ -21,5 +17,11 @@
         background-color: var(--border-color);
       }
     }
+  }
+}
+
+.preposition-verbs {
+  &__verb {
+    cursor: pointer;
   }
 }

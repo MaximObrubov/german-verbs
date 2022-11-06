@@ -1,0 +1,10 @@
+:host {
+  display: inline-block;
+  vertical-align: middle;
+
+  .speaker {
+    cursor: pointer;
+    padding: 0.2em 0.4em;
+    display: inline-block;
+  }
+}

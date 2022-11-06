@@ -54,12 +54,14 @@
     {"verb": "entscheiden", "preposition": "für", "casus": "acc.", "meaning": "decide for; choose"},
     {"verb": "halten", "preposition": "für", "casus": "acc.", "meaning": "take for"},
     {"verb": "kämpfen", "preposition": "für", "casus": "acc.", "meaning": "fight for", "examples": [
-      "Ich kämpfe für den Frieden!"
+      "Ich #kämpfe für den Frieden!"
     ]},
     {"verb": "sein", "preposition": "für", "casus": "acc.", "meaning": "be for", "examples": [
       "Ich werde für dich da #sein"
     ]},
-    {"verb": "stimmen", "preposition": "für", "casus": "acc.", "meaning": "vote for"},
+    {"verb": "stimmen", "preposition": "für", "casus": "acc.", "meaning": "vote for", "examples": [
+      "Besucher #stimmt für den Frieden"
+    ]},
     {"verb": "sorgen", "preposition": "für", "casus": "acc.", "meaning": "care for"},
     {"verb": "sprechen", "preposition": "für", "casus": "acc.", "meaning": "talk for"},
 
@@ -74,7 +76,9 @@
     ]},
 
     {"verb": "kämpfen", "preposition": "gegen", "casus": "acc.", "meaning": "fight against"},
-    {"verb": "protestieren", "preposition": "gegen", "casus": "acc.", "meaning": "protest against"},
+    {"verb": "protestieren", "preposition": "gegen", "casus": "acc.", "meaning": "protest against", "examples": [
+      "Ich #habe dagegen #protestiert, dass man mir keine Zigaretten geben wollte."
+    ]},
     {"verb": "sein", "preposition": "gegen", "casus": "acc.", "meaning": "be against"},
     {"verb": "sprechen", "preposition": "gegen", "casus": "acc.", "meaning": "talk against"},
     {"verb": "verstossen", "preposition": "gegen", "casus": "acc.", "meaning": "break against (some rule)"},
@@ -185,7 +189,9 @@
     ]},
     {"verb": "sich freuen", "preposition": "auf", "casus": "acc.", "meaning": "look forward to"},
     {"verb": "sich freuen", "preposition": "über", "casus": "acc.", "meaning": "be happy about"},
-    {"verb": "sich freuen", "preposition": "für", "casus": "acc.", "meaning": "be happy for (smb.)"},
+    {"verb": "sich freuen", "preposition": "für", "casus": "acc.", "meaning": "be happy for (smb.)", "examples": [
+      "Ich #freue #mich für dich wie ein Schneekönig"
+    ]},
     {"verb": "sich fürchten", "preposition": "vor", "casus": "dat.", "meaning": "be frightened by"},
     {"verb": "sich gewöhnen", "preposition": "an", "casus": "acc.", "meaning": "get used to"},
     {"verb": "sich handeln", "preposition": "um", "casus": "acc.", "meaning": "be about"},
@@ -206,7 +212,9 @@
     {"verb": "sich üben", "preposition": "in", "casus": "dat.", "meaning": "train in (smth)"},
     {"verb": "sich verabreden", "preposition": "mit", "casus": "dat.", "meaning": "arrange (to meet) with"},
     {"verb": "sich verabschieden", "preposition": "von", "casus": "dat.", "meaning": "say goodbye to"},
-    {"verb": "sich verlassen", "preposition": "auf", "casus": "acc.", "meaning": "rely on"},
+    {"verb": "sich verlassen", "preposition": "auf", "casus": "acc.", "meaning": "rely on", "examples": [
+      "Ich #hatte mich auf deine Informationen #verlassen!"
+    ]},
     {"verb": "sich verlieben", "preposition": "in", "casus": "acc.", "meaning": "fall in love"},
     {"verb": "sich verstehen", "preposition": "mit", "casus": "dat.", "meaning": "get along with"},
     {"verb": "sich vorbereiten", "preposition": "auf", "casus": "acc.", "meaning": "prepare oneself for"},

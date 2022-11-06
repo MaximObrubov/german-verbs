@@ -18,7 +18,7 @@
         </thead>
         <tbody>
           <ng-container *ngFor="let verb of verbs[prep]" >
-            <tr [id]="decode(verb)" (click)="onVerbClick(verb)">
+            <tr class="preposition-verbs__verb" [id]="decode(verb)" (click)="onVerbClick(verb)">
               <td>{{ verb.verb }}</td>
               <td>{{ verb.preposition }}</td>
               <td>{{ verb.casus }}</td>

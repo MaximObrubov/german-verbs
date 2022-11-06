@@ -35,7 +35,7 @@ export class DetailsComponent implements OnInit {
 
   exampleHTML(example: string) {
     const verbReg = new RegExp(`#([a-zA-ZäöüÄÖÜß]+)`, "ig");
-    const prepReg = new RegExp(`(${this.verb.preposition})`, "ig");
+    const prepReg = new RegExp(`(\\b${this.verb.preposition}\\b)`, "ig");
     const baseKlass = "verb-details__example";
     let _example = example.replace(verbReg, this._wrap("$1", baseKlass + "-verb"));
     return _example.replace(prepReg, this._wrap("$1", baseKlass + "-preposition"));

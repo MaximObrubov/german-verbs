@@ -7,6 +7,7 @@ import { ListPageComponent } from './list-page/list-page.component';
 import { FastNavComponent } from './fast-nav/fast-nav.component';
 import { DetailsComponent } from './details/details.component';
 import { GifsService } from '../services/gifs.service';
+import { AudioModule } from '../audio/audio.module';
 
 
 
@@ -19,7 +20,8 @@ import { GifsService } from '../services/gifs.service';
     DetailsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AudioModule,
   ],
   exports: [
     ListPageComponent,
