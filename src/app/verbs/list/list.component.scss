@@ -13,10 +13,11 @@
       max-height: 0;
       overflow: hidden;
       // transition: all 0.3s;
-      visibility: collapse;
+      // visibility: collapse;
+      display: none;
 
       &.shown {
-        visibility: visible;
+        display: table-row;
         background-color: var(--border-color);
       }
     }
