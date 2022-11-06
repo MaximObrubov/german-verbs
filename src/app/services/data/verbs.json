@@ -89,7 +89,9 @@
     {"verb": "beginnen", "preposition": "mit", "casus": "dat.", "meaning": "begin with"},
     {"verb": "diskutieren", "preposition": "mit", "casus": "dat.", "meaning": "discuss with"},
     {"verb": "handeln", "preposition": "mit", "casus": "dat.", "meaning": "trade with"},
-    {"verb": "rechnen", "preposition": "mit", "casus": "dat.", "meaning": "count on"},
+    {"verb": "rechnen", "preposition": "mit", "casus": "dat.", "meaning": "count on", "examples": [
+      "Ich rechne mit dem Rechner"
+    ]},
     {"verb": "spielen", "preposition": "mit", "casus": "dat.", "meaning": "play with"},
     {"verb": "sprechen", "preposition": "mit", "casus": "dat.", "meaning": "speak with"},
     {"verb": "streiten", "preposition": "mit", "casus": "dat.", "meaning": "argue with"},
@@ -99,10 +101,17 @@
     {"verb": "vergleichen", "preposition": "mit", "casus": "dat.", "meaning": "compare with"},
 
     {"verb": "fragen", "preposition": "nach", "casus": "dat.", "meaning": "ask for"},
-    {"verb": "riechen", "preposition": "nach", "casus": "dat.", "meaning": "smell like"},
-    {"verb": "schmecken", "preposition": "nach", "casus": "dat.", "meaning": "taste like"},
+    {"verb": "riechen", "preposition": "nach", "casus": "dat.", "meaning": "smell like", "examples": [
+      "Es riecht nach Gas",
+      "Es riecht nach gutem Essen"
+    ]},
+    {"verb": "schmecken", "preposition": "nach", "casus": "dat.", "meaning": "taste like", "examples": [
+      "Es schmeckt nach der Sohle eines Stiefels"
+    ]},
     {"verb": "suchen", "preposition": "nach", "casus": "dat.", "meaning": "search for", "examples": [
-      "Ich #suche nach einer guten Ehefrau."
+      "Ich #suche nach einer guten Ehefrau.",
+      "Ich #suche schon seit einer Stunde nach dem Fehler in der Hausaufgabe",
+      "Ich #suche nach dem Sinn des Lebens."
     ]},
 
     {"verb": "beklagen", "preposition": "über", "casus": "acc.", "meaning": "complain about"},
@@ -188,10 +197,10 @@
     {"verb": "sich beteiligen", "preposition": "an", "casus": "dat.", "meaning": "take part in", "examples": [
       "Du #beteiligst #dich an den Ausgaben."
     ]},
-    {"verb": "sich bewerben", "preposition": "bei", "casus": "dat.", "meaning": "apply at", "examples": [
+    {"verb": "sich bewerben", "preposition": "bei", "casus": "dat.", "meaning": "apply at"},
+    {"verb": "sich bewerben", "preposition": "um", "casus": "acc.", "meaning": "apply for", "examples": [
       "Ich #bewarb #mich um ein Praktikum für den Sommer."
     ]},
-    {"verb": "sich bewerben", "preposition": "um", "casus": "acc.", "meaning": "apply for"},
     {"verb": "sich beziehen", "preposition": "auf", "casus": "acc.", "meaning": "refer to"},
     {"verb": "sich entscheiden", "preposition": "für", "casus": "acc.", "meaning": "decide on"},
     {"verb": "sich entschließen", "preposition": "zu", "casus": "dat.", "meaning": "resolve to"},
