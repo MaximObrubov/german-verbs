@@ -25,7 +25,11 @@ export class ListComponent implements OnInit {
   }
 
   onVerbClick(verb: VerbWithPrepostion) {
-    if (this.selected !== verb) this.selected = verb;
+    if (this.selected !== verb) {
+      this.selected = verb;
+    } else if (this.selected === verb) {
+      this.selected = null;
+    }
   }
 
   decode(v: VerbWithPrepostion) {

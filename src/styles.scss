@@ -15,6 +15,7 @@
   --primary-hover-color: #ab6605;
   --border-color: #eee;
   --accent-color: rgb(25, 120, 149);
+  --accent-hover-color: rgb(20, 89, 110);
   // QUESTION: hsl not working
   // --accent-color: hsl(from var(--color-primary) h s calc(l - 5%));
   --success-color: rgb(109, 173, 36);
@@ -124,4 +125,19 @@ textarea.ng-touched {
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+}
+
+.btn {
+  border: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.btn.btn-primary {
+  background: var(--accent-color);
+  color: white;
+
+  &:hover {
+    background: var(--accent-hover-color);
+  }
 }

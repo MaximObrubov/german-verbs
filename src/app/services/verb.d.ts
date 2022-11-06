@@ -5,5 +5,5 @@ export interface VerbWithPrepostion {
   preposition: string,
   casus: string,
   meaning: string,
-  example?: string,
+  examples?: string[],
 }

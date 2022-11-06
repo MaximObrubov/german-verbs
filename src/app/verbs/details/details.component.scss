@@ -1,5 +1,4 @@
 .verb-details {
-  text-align: center;
   margin-bottom: 25px;
 
   .verb-part {
@@ -8,11 +7,33 @@
     margin: 1em 0.5em;
   }
 
-  &--example {
+  &__examples {
+    margin-bottom: 1.5em;
+  }
+
+  &__example-verb {
+    font-weight: bold;
     color: var(--primary-color);
-    font-size: 1.4em;
-    padding-top: 0.7em;
-    margin-bottom: 1em;
+  }
+
+  &__example-preposition {
+    font-weight: bold;
+    color: var(--accent-color);
+  }
+
+  &__actions {
+    text-align: center;
+
+    .btn {
+      margin: 0 1em;
+    }
+
+    &--wikilink {
+      span {
+        color: var(--primary-color);
+        font-weight: bold;
+      }
+    }
   }
 
   &--gif {

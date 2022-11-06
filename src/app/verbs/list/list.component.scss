@@ -16,9 +16,8 @@
       visibility: collapse;
 
       &.shown {
-        max-height: fit-content;
         visibility: visible;
-        background-color: var(--accent-color);
+        background-color: var(--border-color);
       }
     }
   }

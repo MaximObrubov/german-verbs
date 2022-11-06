@@ -1,10 +1,31 @@
 <div class="verb-details">
   <div class="verb-details--gif-block">
-    <div class="verb-details--example">{{ verb.example }}</div>
+    <h4>Beispiele:</h4>
+    <div class="verb-details__examples" *ngIf="verb.examples?.length else noExamples">
+      <ol>
+        <li
+          class="verb-details__example"
+          *ngFor="let example of verb.examples"
+          [innerHTML]="exampleHTML(example)"></li>
+      </ol>
+    </div>
 
-    <button class="btn btn-primary" (click)="showGif()">Show me the .gif!</button>
-    <div class="verb-details--gif" *ngIf="verbGifSrc">
-      <img [src]="verbGifSrc">
+    <div class="verb-details__actions">
+      <a [href]="wikiLink" class="btn btn-primary verb-details__actions--wikilink" target="_blank">
+        Check
+        <span>{{verb.verb}}</span>
+        on Wiktionary
+      </a>
+      <button class="btn btn-info" (click)="showGif()">Show me the .gif!</button>
+      <div class="verb-details--gif" *ngIf="verbGifSrc">
+        <img [src]="verbGifSrc">
+      </div>
     </div>
   </div>
 </div>
+
+<ng-template #noExamples>
+  <div class="verb-details__examples">
+    <i style="padding-left: 30px;">Keine Beispiele noch :(</i>
+  </div>
+</ng-template>

@@ -1,17 +1,31 @@
 {
   "verbs": [
     {"verb": "ändern", "preposition": "an", "casus": "dat.", "meaning": "change about"},
-    {"verb": "arbeiten", "preposition": "an", "casus": "dat.", "meaning": "work on", "example": "Ich arbeite an einer Firma"},
-    {"verb": "denken", "preposition": "an", "casus": "acc.", "meaning": "think of", "example": "Ich denke an dich"},
+    {"verb": "arbeiten", "preposition": "an", "casus": "dat.", "meaning": "work on", "examples": [
+      "Ich #arbeite an einer Firma"
+    ]},
+    {"verb": "denken", "preposition": "an", "casus": "acc.", "meaning": "think of", "examples": [
+      "Ich #denke an dich"
+    ]},
     {"verb": "glauben", "preposition": "an", "casus": "acc." , "meaning": "believe in"},
-    {"verb": "hängen", "preposition": "an", "casus": "dat.", "meaning": "hanging on"},
+    {"verb": "hängen", "preposition": "an", "casus": "dat.", "meaning": "hanging on", "examples": [
+      "Der Verbrecher #hing an dem Galgen."
+    ]},
     {"verb": "hindern", "preposition": "an", "casus": "dat.", "meaning": "prevent from"},
     {"verb": "leiden", "preposition": "an", "casus": "dat.", "meaning": "suffer from"},
-    {"verb": "schicken", "preposition": "an", "casus": "acc.", "meaning": "send to", "example": "Ich werde das an Sie schicken"},
-    {"verb": "schreiben", "preposition": "an", "casus": "acc.", "meaning": "write to", "example": "Ich werde das an Sie schreiben"},
+    {"verb": "schicken", "preposition": "an", "casus": "acc.", "meaning": "send to", "examples": [
+      "Ich werde das an Sie #schicken"
+    ]},
+    {"verb": "schreiben", "preposition": "an", "casus": "acc.", "meaning": "write to", "examples": [
+      "Ich werde das an Sie #schreiben"
+    ]},
     {"verb": "sterben", "preposition": "an", "casus": "acc.", "meaning": "die of"},
-    {"verb": "teilnehmen", "preposition": "an", "casus": "dat.", "meaning": "participate in"},
-    {"verb": "zweifeln", "preposition": "an", "casus": "dat.", "meaning": "doubt", "example": "ich zweifle an der Fähigkeit der Menschen, logisch zu denken"},
+    {"verb": "teilnehmen", "preposition": "an", "casus": "dat.", "meaning": "participate in", "examples": [
+      "Erik hat an dem Wettbewerb #teilgenommen."
+    ]},
+    {"verb": "zweifeln", "preposition": "an", "casus": "dat.", "meaning": "doubt", "examples": [
+      "ich #zweifle an der Fähigkeit der Menschen, logisch zu denken"
+    ]},
 
     {"verb": "achten", "preposition": "auf", "casus": "acc.", "meaning": "watch, take care of"},
     {"verb": "ankommen", "preposition": "auf", "casus": "acc.", "meaning": "depend on"},
@@ -39,8 +53,12 @@
     {"verb": "danken", "preposition": "für", "casus": "acc.", "meaning": "thank for"},
     {"verb": "entscheiden", "preposition": "für", "casus": "acc.", "meaning": "decide for; choose"},
     {"verb": "halten", "preposition": "für", "casus": "acc.", "meaning": "take for"},
-    {"verb": "kämpfen", "preposition": "für", "casus": "acc.", "meaning": "fight for"},
-    {"verb": "sein", "preposition": "für", "casus": "acc.", "meaning": "be for"},
+    {"verb": "kämpfen", "preposition": "für", "casus": "acc.", "meaning": "fight for", "examples": [
+      "Ich kämpfe für den Frieden!"
+    ]},
+    {"verb": "sein", "preposition": "für", "casus": "acc.", "meaning": "be for", "examples": [
+      "Ich werde für dich da #sein"
+    ]},
     {"verb": "stimmen", "preposition": "für", "casus": "acc.", "meaning": "vote for"},
     {"verb": "sorgen", "preposition": "für", "casus": "acc.", "meaning": "care for"},
     {"verb": "sprechen", "preposition": "für", "casus": "acc.", "meaning": "talk for"},
@@ -48,8 +66,12 @@
 
     {"verb": "einwilligen", "preposition": "in", "casus": "acc.", "meaning": "agree with"},
     {"verb": "geraten", "preposition": "in", "casus": "acc.", "meaning": "get into"},
-    {"verb": "teilen", "preposition": "in", "casus": "acc.", "meaning": "split into"},
-    {"verb": "unterrichten", "preposition": "in", "casus": "dat.", "meaning": "train in (smth)"},
+    {"verb": "teilen", "preposition": "in", "casus": "acc.", "meaning": "split into", "examples": [
+      "Nach dem Krieg wurde Deutschland in zwei Staaten #geteilt."
+    ]},
+    {"verb": "unterrichten", "preposition": "in", "casus": "dat.", "meaning": "train in (smth)", "examples": [
+      "Sie #unterrichtet mich in Mathe und Physik"
+    ]},
 
     {"verb": "kämpfen", "preposition": "gegen", "casus": "acc.", "meaning": "fight against"},
     {"verb": "protestieren", "preposition": "gegen", "casus": "acc.", "meaning": "protest against"},
@@ -67,13 +89,17 @@
     {"verb": "spielen", "preposition": "mit", "casus": "dat.", "meaning": "play with"},
     {"verb": "sprechen", "preposition": "mit", "casus": "dat.", "meaning": "speak with"},
     {"verb": "streiten", "preposition": "mit", "casus": "dat.", "meaning": "argue with"},
-    {"verb": "telefonieren", "preposition": "mit", "casus": "dat.", "meaning": "call"},
+    {"verb": "telefonieren", "preposition": "mit", "casus": "dat.", "meaning": "call", "examples": [
+      "Gestern #habe ich vier Stunden mit meinem Bruder #telefoniert."
+    ]},
     {"verb": "vergleichen", "preposition": "mit", "casus": "dat.", "meaning": "compare with"},
 
     {"verb": "fragen", "preposition": "nach", "casus": "dat.", "meaning": "ask for"},
     {"verb": "riechen", "preposition": "nach", "casus": "dat.", "meaning": "smell like"},
     {"verb": "schmecken", "preposition": "nach", "casus": "dat.", "meaning": "taste like"},
-    {"verb": "suchen", "preposition": "nach", "casus": "dat.", "meaning": "search for"},
+    {"verb": "suchen", "preposition": "nach", "casus": "dat.", "meaning": "search for", "examples": [
+      "Ich #suche nach einer guten Ehefrau."
+    ]},
 
     {"verb": "beklagen", "preposition": "über", "casus": "acc.", "meaning": "complain about"},
     {"verb": "berichten", "preposition": "über", "casus": "acc.", "meaning": "tell about"},
@@ -96,16 +122,21 @@
     {"verb": "sinken", "preposition": "um", "casus": "acc.", "meaning": "go lower"},
     {"verb": "steigen", "preposition": "um", "casus": "acc.", "meaning": "go upper"},
 
-    {"verb": "leiden", "preposition": "unter", "casus": "acc.", "meaning": "suffer from"},
+    {"verb": "leiden", "preposition": "unter", "casus": "acc.", "meaning": "suffer from", "examples": [
+      "Paul #litt nicht so lange Zeit unter schlimmen Schmerzen",
+      "Ich #leide unter Migräne"
+    ]},
 
-    {"verb": "abhängen", "preposition": "von", "casus": "dat.", "meaning": "depend on", "example": "Es hängt von vielen Sachen ab."},
+    {"verb": "abhängen", "preposition": "von", "casus": "dat.", "meaning": "depend on", "examples": ["Es #hängt von vielen Sachen ab."]},
     {"verb": "erfahren", "preposition": "von", "casus": "dat.", "meaning": "learn about"},
     {"verb": "erzählen", "preposition": "von", "casus": "dat.", "meaning": "tell about"},
     {"verb": "halten", "preposition": "von", "casus": "dat.", "meaning": "think of"},
     {"verb": "handeln", "preposition": "von", "casus": "dat.", "meaning": "be about"},
     {"verb": "hören", "preposition": "von", "casus": "dat.", "meaning": "hear of"},
     {"verb": "leben", "preposition": "von", "casus": "dat.", "meaning": "live on (little money)"},
-    {"verb": "reden", "preposition": "von", "casus": "dat.", "meaning": "talk about"},
+    {"verb": "reden", "preposition": "von", "casus": "dat.", "meaning": "talk about", "examples": [
+      "Er #redet oft von seinen Eltern."
+    ]},
     {"verb": "schwermen", "preposition": "von", "casus": "dat.", "meaning": "be out of mind of"},
     {"verb": "träumen", "preposition": "von", "casus": "dat.", "meaning": "dream of"},
     {"verb": "verstehen", "preposition": "von", "casus": "dat.", "meaning": "skilled in"},
@@ -149,7 +180,9 @@
     {"verb": "sich erholen", "preposition": "von", "casus": "dat.", "meaning": "recover from"},
     {"verb": "sich erinnern", "preposition": "an", "casus": "acc.", "meaning": "recall / remember"},
     {"verb": "sich erkundigen", "preposition": "nach", "casus": "dat.", "meaning": "ask about, be informed about"},
-    {"verb": "sich erkranken", "preposition": "an", "casus": "dat.", "meaning": "to be sick of"},
+    {"verb": "sich erkranken", "preposition": "an", "casus": "dat.", "meaning": "to be sick of", "examples": [
+      "Er #erkrankt sich an SARS-CoV-2"
+    ]},
     {"verb": "sich freuen", "preposition": "auf", "casus": "acc.", "meaning": "look forward to"},
     {"verb": "sich freuen", "preposition": "über", "casus": "acc.", "meaning": "be happy about"},
     {"verb": "sich freuen", "preposition": "für", "casus": "acc.", "meaning": "be happy for (smb.)"},
@@ -178,7 +211,10 @@
     {"verb": "sich verstehen", "preposition": "mit", "casus": "dat.", "meaning": "get along with"},
     {"verb": "sich vorbereiten", "preposition": "auf", "casus": "acc.", "meaning": "prepare oneself for"},
     {"verb": "sich wehren", "preposition": "gegen", "casus": "acc.", "meaning": "fight back"},
-    {"verb": "sich wenden", "preposition": "an", "casus": "acc.", "meaning": "turn to"},
+    {"verb": "sich wenden", "preposition": "an", "casus": "acc.", "meaning": "to appeal, to address", "examples": [
+      "Ich #wende mich an dich, weil du mein Freund bist.",
+      "#Wenden Sie sich bitte an das zuständige Amt."
+    ]},
     {"verb": "sich wundern", "preposition": "über", "casus": "acc.", "meaning": "wonder about"}
   ]
 }
