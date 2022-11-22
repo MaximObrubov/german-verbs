@@ -2,12 +2,15 @@
   "verbs": [
     {"verb": "ändern", "preposition": "an", "casus": "dat.", "meaning": "change about"},
     {"verb": "arbeiten", "preposition": "an", "casus": "dat.", "meaning": "work on", "examples": [
-      "Ich #arbeite an einer Firma"
+      "Ich #arbeite an meiner Dissertation",
     ]},
     {"verb": "denken", "preposition": "an", "casus": "acc.", "meaning": "think of", "examples": [
       "Ich #denke an dich"
     ]},
-    {"verb": "glauben", "preposition": "an", "casus": "acc." , "meaning": "believe in"},
+    {"verb": "glauben", "preposition": "an", "casus": "acc." , "meaning": "believe in", "examples": [
+      "Ich #glaube nur an mich selbst.",
+      "Ich #glaube an das Gute in Menschen."
+    ]},
     {"verb": "hängen", "preposition": "an", "casus": "dat.", "meaning": "hanging on", "examples": [
       "Der Verbrecher #hing an dem Galgen."
     ]},
@@ -19,7 +22,9 @@
     {"verb": "schreiben", "preposition": "an", "casus": "acc.", "meaning": "write to", "examples": [
       "Ich werde das an Sie #schreiben"
     ]},
-    {"verb": "sterben", "preposition": "an", "casus": "acc.", "meaning": "die of"},
+    {"verb": "sterben", "preposition": "an", "casus": "acc.", "meaning": "die of", "examples": [
+      "der Bürgermeister #starb an seiner Gier."
+    ]},
     {"verb": "teilnehmen", "preposition": "an", "casus": "dat.", "meaning": "participate in", "examples": [
       "Erik hat an dem Wettbewerb #teilgenommen."
     ]},
@@ -51,7 +56,6 @@
 
     {"verb": "ausgeben", "preposition": "für", "casus": "acc.", "meaning": "spend for"},
     {"verb": "danken", "preposition": "für", "casus": "acc.", "meaning": "thank for"},
-    {"verb": "entscheiden", "preposition": "für", "casus": "acc.", "meaning": "decide for; choose"},
     {"verb": "halten", "preposition": "für", "casus": "acc.", "meaning": "take for"},
     {"verb": "kämpfen", "preposition": "für", "casus": "acc.", "meaning": "fight for", "examples": [
       "Ich #kämpfe für den Frieden!"
@@ -80,7 +84,9 @@
       "Ich #habe dagegen #protestiert, dass man mir keine Zigaretten geben wollte."
     ]},
     {"verb": "sein", "preposition": "gegen", "casus": "acc.", "meaning": "be against"},
-    {"verb": "sprechen", "preposition": "gegen", "casus": "acc.", "meaning": "talk against"},
+    {"verb": "sprechen", "preposition": "gegen", "casus": "acc.", "meaning": "talk against", "examples": [
+      "Es gibt viele Fakten, die gegen unsere Entscheidung #sprechen."
+    ]},
     {"verb": "verstossen", "preposition": "gegen", "casus": "acc.", "meaning": "break against (some rule)"},
 
 
@@ -193,7 +199,7 @@
     {"verb": "sich bemühen", "preposition": "um", "casus": "acc.", "meaning": "strive for, be eager for"},
     {"verb": "sich beschäftigen", "preposition": "mit", "casus": "dat.", "meaning": "deal with, to concern with"},
     {"verb": "sich beschweren", "preposition": "bei", "casus": "dat.", "meaning": "complain to"},
-    {"verb": "sich beschweren", "preposition": "über", "casus": "dat.", "meaning": "complain about"},
+    {"verb": "sich beschweren", "preposition": "über", "casus": "acc.", "meaning": "complain about"},
     {"verb": "sich beteiligen", "preposition": "an", "casus": "dat.", "meaning": "take part in", "examples": [
       "Du #beteiligst #dich an den Ausgaben."
     ]},
