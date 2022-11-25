@@ -193,7 +193,7 @@
 
     {"verb": "sich ärgern", "preposition": "über", "casus": "acc.", "meaning": "get angry about / with"},
     {"verb": "sich aufregen", "preposition": "über", "casus": "acc.", "meaning": "upset about"},
-    {"verb": "sich begnügen", "preposition": "mit", "casus": "dat.", "meaning": "(довольствоваться)"},
+    {"verb": "sich begnügen", "preposition": "mit", "casus": "dat.", "meaning": "confine (myself)"},
     {"verb": "sich bedanken", "preposition": "bei", "casus": "dat.", "meaning": "thank someone"},
     {"verb": "sich bedanken", "preposition": "für", "casus": "acc.", "meaning": "thank for"},
     {"verb": "sich bemühen", "preposition": "um", "casus": "acc.", "meaning": "strive for, be eager for"},
