@@ -7,3 +7,11 @@ export interface VerbWithPrepostion {
   meaning: string,
   examples?: string[],
 }
+
+export interface VerbIrregular {
+  verb: string,
+  past: string,
+  perf: string,
+  meaning: string,
+  additional?: string,
+}

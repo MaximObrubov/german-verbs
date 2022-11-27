@@ -21,7 +21,7 @@ export interface Answer {
 })
 export class GamePageComponent implements OnInit {
 
-  VERBS_COUNT = 6;
+  VERBS_COUNT = 10;
   answersCount = 0;
   CONGRAT_WORD = "success";
   congratGif: string | null = null;

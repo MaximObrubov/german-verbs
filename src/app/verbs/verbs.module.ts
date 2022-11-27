@@ -8,6 +8,7 @@ import { FastNavComponent } from './fast-nav/fast-nav.component';
 import { DetailsComponent } from './details/details.component';
 import { GifsService } from '../services/gifs.service';
 import { AudioModule } from '../audio/audio.module';
+import { IrregularPageComponent } from './irregular-page/irregular-page.component';
 
 
 
@@ -17,7 +18,8 @@ import { AudioModule } from '../audio/audio.module';
     SearchComponent,
     ListPageComponent,
     FastNavComponent,
-    DetailsComponent
+    DetailsComponent,
+    IrregularPageComponent
   ],
   imports: [
     CommonModule,

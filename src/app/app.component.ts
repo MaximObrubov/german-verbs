@@ -11,14 +11,18 @@ export class AppComponent {
 
   links = [
     {url: "game", title: "Match Game"},
-    // {url: "/irregular", title: "Irregular verbs"},
+    {url: "irregular", title: "Irregular verbs"},
   ]
 
-  constructor(private title: Title) {
+  constructor(private titleService: Title) {
     this.setTitle("German Verbs with prepositions")
   }
 
   public setTitle(title: string) {
-    this.title.setTitle(title);
+    this.titleService.setTitle(title);
+  }
+
+  public get title(): string {
+    return this.titleService.getTitle();
   }
 }

@@ -2,7 +2,7 @@
   "verbs": [
     {"verb": "ändern", "preposition": "an", "casus": "dat.", "meaning": "change about"},
     {"verb": "arbeiten", "preposition": "an", "casus": "dat.", "meaning": "work on", "examples": [
-      "Ich #arbeite an meiner Dissertation",
+      "Ich #arbeite an meiner Dissertation"
     ]},
     {"verb": "denken", "preposition": "an", "casus": "acc.", "meaning": "think of", "examples": [
       "Ich #denke an dich"
@@ -32,29 +32,47 @@
       "ich #zweifle an der Fähigkeit der Menschen, logisch zu denken"
     ]},
 
+
+
     {"verb": "achten", "preposition": "auf", "casus": "acc.", "meaning": "watch, take care of"},
     {"verb": "ankommen", "preposition": "auf", "casus": "acc.", "meaning": "depend on"},
     {"verb": "antworten", "preposition": "auf", "casus": "acc.", "meaning": "answer to"},
     {"verb": "aufpassen", "preposition": "auf", "casus": "acc.", "meaning": "take care of"},
-    {"verb": "basieren", "preposition": "auf", "casus": "dat.", "meaning": "base on"},
+    {"verb": "basieren", "preposition": "auf", "casus": "dat.", "meaning": "base on", "examples": [
+      "Der neue Programmversion basiert auf einer älteren."
+    ]},
     {"verb": "bestehen", "preposition": "auf", "casus": "acc.", "meaning": "insist on"},
     {"verb": "beharren", "preposition": "auf", "casus": "dat.", "meaning": "insist on"},
-    {"verb": "beruhen", "preposition": "auf", "casus": "dat.", "meaning": "base on"},
-    {"verb": "hoffen", "preposition": "auf", "casus": "acc.", "meaning": "hope for"},
+    {"verb": "beruhen", "preposition": "auf", "casus": "dat.", "meaning": "base on", "examples": [
+      "Meine Aussage beruht auf der Annahme, dass die vorliegenden Zahlen stimmen."
+    ]},
+    {"verb": "hoffen", "preposition": "auf", "casus": "acc.", "meaning": "hope for", "examples": [
+      "ich hoffe nicht besonders darauf"
+    ]},
     {"verb": "verzichten", "preposition": "auf", "casus": "acc.", "meaning": "do without"},
     {"verb": "warten", "preposition": "auf", "casus": "acc.", "meaning": "wait for"},
 
 
+
     {"verb": "bestehen", "preposition": "aus", "casus": "dat.", "meaning": "consist of"},
 
+
+
     {"verb": "anrufen", "preposition": "bei", "casus": "dat.", "meaning": "call to"},
-    {"verb": "arbeiten", "preposition": "bei", "casus": "dat.", "meaning": "work at"},
+    {"verb": "arbeiten", "preposition": "bei", "casus": "dat.", "meaning": "work at", "examples": [
+      "Ich #arbeite bei Tesla, gefällt mir das aber nicht"
+    ]},
     {"verb": "bleiben", "preposition": "bei", "casus": "dat.", "meaning": "stay at"},
     {"verb": "helfen", "preposition": "bei", "casus": "dat.", "meaning": "help with"},
-    {"verb": "zuschauen", "preposition": "bei", "casus": "dat.", "meaning": "watch"},
+    {"verb": "zuschauen", "preposition": "bei", "casus": "dat.", "meaning": "watch", "examples": [
+      "Anna kann auch dabai #zuschauen"
+    ]},
     {"verb": "zuhören", "preposition": "bei", "casus": "dat.", "meaning": "listen to"},
 
-    {"verb": "ausgeben", "preposition": "für", "casus": "acc.", "meaning": "spend for"},
+    {"verb": "ausgeben", "preposition": "für", "casus": "acc.", "meaning": "spend for", "examples": [
+      "Ich #gebe fast alles für die Wohnungsmiete aus. Ich brauche mehr Geld :(",
+      "Sie #gab sich für eine erfahrene Programmierin aus, obwohl sie keine war."
+    ]},
     {"verb": "danken", "preposition": "für", "casus": "acc.", "meaning": "thank for"},
     {"verb": "halten", "preposition": "für", "casus": "acc.", "meaning": "take for"},
     {"verb": "kämpfen", "preposition": "für", "casus": "acc.", "meaning": "fight for", "examples": [
@@ -64,14 +82,21 @@
       "Ich werde für dich da #sein"
     ]},
     {"verb": "stimmen", "preposition": "für", "casus": "acc.", "meaning": "vote for", "examples": [
-      "Besucher #stimmt für den Frieden"
+      "Besucher #stimmt für den Frieden",
+      "Für eine Partei sollte man #stimmen."
     ]},
     {"verb": "sorgen", "preposition": "für", "casus": "acc.", "meaning": "care for"},
-    {"verb": "sprechen", "preposition": "für", "casus": "acc.", "meaning": "talk for"},
+    {"verb": "sprechen", "preposition": "für", "casus": "acc.", "meaning": "talk for", "examples": [
+      "Christian spielt augezeichnet Schach. Das #spricht für seine Intelligenz."
+    ]},
+
+
 
 
     {"verb": "einwilligen", "preposition": "in", "casus": "acc.", "meaning": "agree with"},
-    {"verb": "geraten", "preposition": "in", "casus": "acc.", "meaning": "get into"},
+    {"verb": "geraten", "preposition": "in", "casus": "acc.", "meaning": "get into", "examples": [
+      "Diese Geschichte wird nicht in Verlauf der Geschichte #geraten"
+    ]},
     {"verb": "teilen", "preposition": "in", "casus": "acc.", "meaning": "split into", "examples": [
       "Nach dem Krieg wurde Deutschland in zwei Staaten #geteilt."
     ]},
@@ -79,7 +104,9 @@
       "Sie #unterrichtet mich in Mathe und Physik"
     ]},
 
-    {"verb": "kämpfen", "preposition": "gegen", "casus": "acc.", "meaning": "fight against"},
+    {"verb": "kämpfen", "preposition": "gegen", "casus": "acc.", "meaning": "fight against", "examples": [
+      "Ich #kämpfe gegen meine Dummheit... Siege aber nicht"
+    ]},
     {"verb": "protestieren", "preposition": "gegen", "casus": "acc.", "meaning": "protest against", "examples": [
       "Ich #habe dagegen #protestiert, dass man mir keine Zigaretten geben wollte."
     ]},
@@ -87,7 +114,9 @@
     {"verb": "sprechen", "preposition": "gegen", "casus": "acc.", "meaning": "talk against", "examples": [
       "Es gibt viele Fakten, die gegen unsere Entscheidung #sprechen."
     ]},
-    {"verb": "verstossen", "preposition": "gegen", "casus": "acc.", "meaning": "break against (some rule)"},
+    {"verb": "verstossen", "preposition": "gegen", "casus": "acc.", "meaning": "break against (some rule)", "examples": [
+      "Er hat gegen das Gesetz #verstoßen."
+    ]},
 
 
     {"verb": "anfangen", "preposition": "mit", "casus": "dat.", "meaning": "start with"},

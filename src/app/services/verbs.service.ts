@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
-import data from "./data/verbs.json";
-import { VerbWithPrepostion } from './verb';
+import data from "../data/verbs_with_prepositions.json";
+import irregulars from "../data/verbs_irregular.json";
+import { VerbWithPrepostion, VerbIrregular } from './verb';
 
 @Injectable({
   providedIn: 'root'
@@ -8,11 +9,20 @@ import { VerbWithPrepostion } from './verb';
 export class VerbsService {
 
   private _verbs: Array<VerbWithPrepostion> = data.verbs;
+  private _irregulars: Array<VerbIrregular> = irregulars.verbs.reduce((akk: VerbIrregular[], arr) => {
+    const [verb, meaning, past, perf, additional] = arr;
+    akk.push({verb, meaning, past, perf, additional});
+    return akk;
+  }, []);
 
   constructor() { }
 
   get verbs() {
     return this._verbs;
+  }
+
+  get irregulars() {
+    return this._irregulars;
   }
 
   sortedByPreposition() {
@@ -26,7 +36,7 @@ export class VerbsService {
   find(substr: string): Array<VerbWithPrepostion> {
     if (!substr) return [];
     if (substr.length < 3) return [];
-    
+
     // TODO: update data to have isReflecsive flag
     return this._verbs.filter(v => (v.verb.replace('sich', "").trim().startsWith(substr.toLowerCase())));
   }

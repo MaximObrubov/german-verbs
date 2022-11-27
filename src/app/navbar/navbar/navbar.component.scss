@@ -9,6 +9,7 @@
 
   &--link {
     display: inline-block;
+    margin-right: 1em;
 
     &::before {
       display: none;
@@ -16,6 +17,9 @@
 
     a {
       text-transform: uppercase;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
     }
   }
 }

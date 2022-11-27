@@ -1,0 +1,1096 @@
+{
+  "verbs": [
+    [
+      "backen",
+      "to bake",
+      "backte/buk",
+      "gebacken",
+      "a → ä"
+    ],
+    [
+      "befehlen",
+      "to command",
+      "befahl",
+      "befohlen",
+      "e → ie"
+    ],
+    [
+      "beginnen",
+      "to begin",
+      "begann",
+      "begonnen",
+      " "
+    ],
+    [
+      "beißen",
+      "to bite",
+      "biss",
+      "gebissen",
+      " "
+    ],
+    [
+      "bergen",
+      "to rescue",
+      "barg",
+      "geborgen",
+      "e → i"
+    ],
+    [
+      "biegen",
+      "to bend",
+      "bog",
+      "gebogen",
+      " "
+    ],
+    [
+      "bieten",
+      "to offer",
+      "bot",
+      "geboten",
+      " "
+    ],
+    [
+      "binden",
+      "to bind",
+      "band",
+      "gebunden",
+      " "
+    ],
+    [
+      "bitten",
+      "to request",
+      "bat",
+      "gebeten",
+      " "
+    ],
+    [
+      "blasen",
+      "to blow",
+      "blies",
+      "geblasen",
+      "a → ä"
+    ],
+    [
+      "bleiben",
+      "to remain",
+      "blieb",
+      "geblieben",
+      " "
+    ],
+    [
+      "braten",
+      "to fry",
+      "briet",
+      "gebraten",
+      "a → ä"
+    ],
+    [
+      "brechen",
+      "to break",
+      "brach",
+      "gebrochen",
+      "e → i"
+    ],
+    [
+      "brennen",
+      "to burn",
+      "brannte",
+      "gebrannt",
+      " "
+    ],
+    [
+      "bringen",
+      "to bring",
+      "brachte",
+      "gebracht",
+      " "
+    ],
+    [
+      "denken",
+      "to think",
+      "dachte",
+      "gedacht",
+      " "
+    ],
+    [
+      "dreschen",
+      "to thrash",
+      "drosch",
+      "gedroschen",
+      "e → i"
+    ],
+    [
+      "dringen",
+      "to get through",
+      "drang",
+      "gedrungen",
+      " "
+    ],
+    [
+      "dürfen",
+      "to be allowed (may)",
+      "durfte",
+      "gedurft",
+      "ü → a <i>(all singular forms)</i>"
+    ],
+    [
+      "empfehlen",
+      "to recommend",
+      "empfahl",
+      "empfohlen",
+      "e → ie"
+    ],
+    [
+      "erschrecken",
+      "to frighten",
+      "erschrak",
+      "erschrocken",
+      "e → i"
+    ],
+    [
+      "essen",
+      "to eat",
+      "aß",
+      "gegessen",
+      "e → i"
+    ],
+    [
+      "erwägen",
+      "to consider",
+      "erwog",
+      "erwogen",
+      " "
+    ],
+    [
+      "fahren",
+      "to drive",
+      "fuhr",
+      "gefahren",
+      "a → ä"
+    ],
+    [
+      "fallen",
+      "to fall",
+      "fiel",
+      "gefallen",
+      "a → ä"
+    ],
+    [
+      "fangen",
+      "to catch",
+      "fing",
+      "gefangen",
+      "a → ä"
+    ],
+    [
+      "finden",
+      "to find",
+      "fand",
+      "gefunden",
+      " "
+    ],
+    [
+      "fliegen",
+      "to fly",
+      "flog",
+      "geflogen",
+      " "
+    ],
+    [
+      "fliehen",
+      "to flee",
+      "floh",
+      "geflohen",
+      " "
+    ],
+    [
+      "fließen",
+      "to flow",
+      "floss",
+      "geflossen",
+      " "
+    ],
+    [
+      "fressen",
+      "to devour",
+      "fraß",
+      "gefressen",
+      "e → i"
+    ],
+    [
+      "frieren",
+      "to freeze",
+      "fror",
+      "gefroren",
+      " "
+    ],
+    [
+      "gären",
+      "to ferment",
+      "gor",
+      "gegoren",
+      " "
+    ],
+    [
+      "gebären",
+      "to bear (give birth)",
+      "gebar",
+      "geboren",
+      "ä → ie"
+    ],
+    [
+      "geben",
+      "to give",
+      "gab",
+      "gegeben",
+      "e → i"
+    ],
+    [
+      "gedeihen",
+      "to thrive",
+      "gedieh",
+      "gediehen",
+      " "
+    ],
+    [
+      "gehen",
+      "to go",
+      "ging",
+      "gegangen",
+      " "
+    ],
+    [
+      "gelingen",
+      "to be successful",
+      "gelang",
+      "gelungen",
+      " "
+    ],
+    [
+      "gelten",
+      "to pertain",
+      "galt",
+      "gegolten",
+      "e → i"
+    ],
+    [
+      "genesen",
+      "to recover",
+      "genas",
+      "genesen",
+      " "
+    ],
+    [
+      "genießen",
+      "to enjoy",
+      "genoss",
+      "genossen",
+      " "
+    ],
+    [
+      "geschehen",
+      "to happen",
+      "geschah",
+      "geschehen",
+      "e → ie"
+    ],
+    [
+      "gewinnen",
+      "to win",
+      "gewann",
+      "gewonnen",
+      " "
+    ],
+    [
+      "gießen",
+      "to pour",
+      "goss",
+      "gegossen",
+      " "
+    ],
+    [
+      "gleichen",
+      "to resemble",
+      "glich",
+      "geglichen",
+      " "
+    ],
+    [
+      "gleiten",
+      "to glide",
+      "glitt",
+      "geglitten",
+      " "
+    ],
+    [
+      "graben",
+      "to dig",
+      "grub",
+      "gegraben",
+      "a → ä"
+    ],
+    [
+      "greifen",
+      "to grasp",
+      "griff",
+      "gegriffen",
+      " "
+    ],
+    [
+      "haben",
+      "to have",
+      "hatte",
+      "gehabt",
+      " "
+    ],
+    [
+      "halten",
+      "to hold; to stop",
+      "hielt",
+      "gehalten",
+      "a → ä"
+    ],
+    [
+      "hängen",
+      "to hang",
+      "hing",
+      "gehangen",
+      " "
+    ],
+    [
+      "hauen",
+      "to hit",
+      "haute",
+      "gehauen",
+      " "
+    ],
+    [
+      "heben",
+      "to lift",
+      "hob",
+      "gehoben",
+      " "
+    ],
+    [
+      "heißen",
+      "to be called",
+      "hieß",
+      "geheißen",
+      " "
+    ],
+    [
+      "helfen",
+      "to help",
+      "half",
+      "geholfen",
+      "e → i"
+    ],
+    [
+      "kennen",
+      "to know (be familiar with)",
+      "kannte",
+      "gekannt",
+      " "
+    ],
+    [
+      "klingen",
+      "to sound; to ring",
+      "klang",
+      "geklungen",
+      " "
+    ],
+    [
+      "kneifen",
+      "to pinch",
+      "kniff",
+      "gekniffen",
+      " "
+    ],
+    [
+      "kommen",
+      "to come",
+      "kam",
+      "gekommen",
+      " "
+    ],
+    [
+      "können",
+      "to be able (can)",
+      "konnte",
+      "gekonnt",
+      "ö → a <i>(<i>all singular forms</i>)</i>"
+    ],
+    [
+      "kriechen",
+      "to crawl",
+      "kroch",
+      "gekrochen",
+      " "
+    ],
+    [
+      "laden",
+      "to load",
+      "lud",
+      "geladen",
+      "a → ä"
+    ],
+    [
+      "lassen",
+      "to let",
+      "ließ",
+      "gelassen",
+      "a → ä"
+    ],
+    [
+      "laufen",
+      "to run, walk",
+      "lief",
+      "gelaufen",
+      "a → ä"
+    ],
+    [
+      "leiden",
+      "to suffer",
+      "litt",
+      "gelitten",
+      " "
+    ],
+    [
+      "leihen",
+      "to lend; to borrow",
+      "lieh",
+      "geliehen",
+      " "
+    ],
+    [
+      "lesen",
+      "to read",
+      "las",
+      "gelesen",
+      "e → ie"
+    ],
+    [
+      "liegen",
+      "to lie (lie down)",
+      "lag",
+      "gelegen",
+      " "
+    ],
+    [
+      "lügen",
+      "to lie (tell a falsehood)",
+      "log",
+      "gelogen",
+      " "
+    ],
+    [
+      "meiden",
+      "to avoid",
+      "mied",
+      "gemieden",
+      " "
+    ],
+    [
+      "messen",
+      "to measure",
+      "maß",
+      "gemessen",
+      "e → i"
+    ],
+    [
+      "misslingen",
+      "to fail",
+      "misslang",
+      "misslungen",
+      " "
+    ],
+    [
+      "mögen",
+      "to like",
+      "mochte",
+      "gemocht",
+      "ö → a <i>(<i>all singular forms</i>)</i>"
+    ],
+    [
+      "müssen",
+      "to have to (must)",
+      "musste",
+      "gemusst",
+      "ü → u <i>(<i>all singular forms</i>)</i>"
+    ],
+    [
+      "nehmen",
+      "to take",
+      "nahm",
+      "genommen",
+      "e → i"
+    ],
+    [
+      "nennen",
+      "to call, name",
+      "nannte",
+      "genannt",
+      " "
+    ],
+    [
+      "pfeifen",
+      "to whistle",
+      "pfiff",
+      "gepfiffen",
+      " "
+    ],
+    [
+      "preisen",
+      "to praise",
+      "pries",
+      "gepriesen",
+      " "
+    ],
+    [
+      "quellen",
+      "to gush",
+      "quoll",
+      "gequollen",
+      "e → i"
+    ],
+    [
+      "raten",
+      "to guess; to advise",
+      "riet",
+      "geraten",
+      "a → ä"
+    ],
+    [
+      "reiben",
+      "to rub",
+      "rieb",
+      "gerieben",
+      " "
+    ],
+    [
+      "reißen",
+      "to rip",
+      "riss",
+      "gerissen",
+      " "
+    ],
+    [
+      "reiten",
+      "to ride",
+      "ritt",
+      "geritten",
+      " "
+    ],
+    [
+      "rennen",
+      "to run, race",
+      "rannte",
+      "gerannt",
+      " "
+    ],
+    [
+      "riechen",
+      "to smell",
+      "roch",
+      "gerochen",
+      " "
+    ],
+    [
+      "ringen",
+      "to struggle",
+      "rang",
+      "gerungen",
+      " "
+    ],
+    [
+      "rinnen",
+      "to trickle",
+      "rann",
+      "geronnen",
+      " "
+    ],
+    [
+      "rufen",
+      "to call",
+      "rief",
+      "gerufen",
+      " "
+    ],
+    [
+      "saufen",
+      "to guzzle; to tipple",
+      "soff",
+      "gesoffen",
+      "a → ä"
+    ],
+    [
+      "schaffen",
+      "to create; to accomplish",
+      "schuf",
+      "geschaffen",
+      " "
+    ],
+    [
+      "scheiden",
+      "to separate",
+      "schied",
+      "geschieden",
+      " "
+    ],
+    [
+      "scheinen",
+      "to shine; to seem",
+      "schien",
+      "geschienen",
+      " "
+    ],
+    [
+      "schelten",
+      "to scold",
+      "schalt",
+      "gescholten",
+      "e → i"
+    ],
+    [
+      "scheren",
+      "to shear",
+      "schor",
+      "geschoren",
+      " "
+    ],
+    [
+      "schieben",
+      "to push",
+      "schob",
+      "geschoben",
+      " "
+    ],
+    [
+      "schießen",
+      "to shoot",
+      "schoss",
+      "geschossen",
+      " "
+    ],
+    [
+      "schinden",
+      "to overwork [someone]",
+      "schindete",
+      "geschunden",
+      " "
+    ],
+    [
+      "schlafen",
+      "to sleep",
+      "schlief",
+      "geschlafen",
+      "a → ä"
+    ],
+    [
+      "schlagen",
+      "to hit, strike",
+      "schlug",
+      "geschlagen",
+      "a → ä"
+    ],
+    [
+      "schleichen",
+      "to sneak",
+      "schlich",
+      "geschlichen",
+      " "
+    ],
+    [
+      "schließen",
+      "to close",
+      "schloss",
+      "geschlossen",
+      " "
+    ],
+    [
+      "schlingen",
+      "to loop; to gulp",
+      "schlang",
+      "geschlungen",
+      " "
+    ],
+    [
+      "schmeißen",
+      "to throw, fling",
+      "schmiss",
+      "geschmissen",
+      " "
+    ],
+    [
+      "schmelzen",
+      "to melt",
+      "schmolz",
+      "geschmolzen",
+      "e → i"
+    ],
+    [
+      "schneiden",
+      "to cut",
+      "schnitt",
+      "geschnitten",
+      " "
+    ],
+    [
+      "schreiben",
+      "to write",
+      "schrieb",
+      "geschrieben",
+      " "
+    ],
+    [
+      "schreien",
+      "to scream, cry",
+      "schrie",
+      "geschrien",
+      " "
+    ],
+    [
+      "schreiten",
+      "to stride, step",
+      "schritt",
+      "geschritten",
+      " "
+    ],
+    [
+      "schweigen",
+      "to be silent",
+      "schwieg",
+      "geschwiegen",
+      " "
+    ],
+    [
+      "schwellen",
+      "to swell",
+      "schwoll",
+      "geschwollen",
+      "e → i"
+    ],
+    [
+      "schwimmen",
+      "to swim",
+      "schwamm",
+      "geschwommen",
+      " "
+    ],
+    [
+      "schwinden",
+      "to fade, disappear",
+      "schwand",
+      "geschwunden",
+      " "
+    ],
+    [
+      "schwingen",
+      "to sway; to wield",
+      "schwang",
+      "geschwungen",
+      " "
+    ],
+    [
+      "schwören",
+      "to swear",
+      "schwor",
+      "geschworen",
+      " "
+    ],
+    [
+      "sehen",
+      "to see",
+      "sah",
+      "gesehen",
+      "e → ie"
+    ],
+    [
+      "sein",
+      "to be",
+      "war",
+      "gewesen",
+      "<i>irregular (ich bin, du bist,&nbsp;…)</i>"
+    ],
+    [
+      "singen",
+      "to sing",
+      "sang",
+      "gesungen",
+      " "
+    ],
+    [
+      "sinken",
+      "to sink",
+      "sank",
+      "gesunken",
+      " "
+    ],
+    [
+      "sinnen",
+      "to ponder",
+      "sann",
+      "gesonnen",
+      " "
+    ],
+    [
+      "sitzen",
+      "to sit",
+      "saß",
+      "gesessen",
+      " "
+    ],
+    [
+      "sollen",
+      "to ought to (should)",
+      "sollte",
+      "gesollt",
+      " "
+    ],
+    [
+      "speien",
+      "to spit",
+      "spie",
+      "gespien",
+      " "
+    ],
+    [
+      "spinnen",
+      "to spin; to be crazy",
+      "spann",
+      "gesponnen",
+      " "
+    ],
+    [
+      "sprechen",
+      "to speak",
+      "sprach",
+      "gesprochen",
+      "e → i"
+    ],
+    [
+      "sprießen",
+      "to sprout",
+      "spross",
+      "gesprossen",
+      " "
+    ],
+    [
+      "springen",
+      "to jump",
+      "sprang",
+      "gesprungen",
+      " "
+    ],
+    [
+      "stechen",
+      "to stab, prick",
+      "stach",
+      "gestochen",
+      "e → i"
+    ],
+    [
+      "stehen",
+      "to stand",
+      "stand",
+      "gestanden",
+      " "
+    ],
+    [
+      "stehlen",
+      "to steal",
+      "stahl",
+      "gestohlen",
+      "e → ie"
+    ],
+    [
+      "steigen",
+      "to climb, mount",
+      "stieg",
+      "gestiegen",
+      " "
+    ],
+    [
+      "sterben",
+      "to die",
+      "starb",
+      "gestorben",
+      "e → i"
+    ],
+    [
+      "streichen",
+      "to cancel, delete",
+      "strich",
+      "gestrichen",
+      " "
+    ],
+    [
+      "streiten",
+      "to quarrel",
+      "stritt",
+      "gestritten",
+      " "
+    ],
+    [
+      "tragen",
+      "to carry; to wear",
+      "trug",
+      "getragen",
+      "a → ä"
+    ],
+    [
+      "treffen",
+      "to meet",
+      "traf",
+      "getroffen",
+      "e → i"
+    ],
+    [
+      "treiben",
+      "to compel, drive",
+      "trieb",
+      "getrieben",
+      " "
+    ],
+    [
+      "treten",
+      "to step",
+      "trat",
+      "getreten",
+      "e → i <i>(+tt)</i>; du trittst"
+    ],
+    [
+      "trinken",
+      "to drink",
+      "trank",
+      "getrunken",
+      " "
+    ],
+    [
+      "trügen",
+      "to deceive",
+      "trog",
+      "getrogen",
+      " "
+    ],
+    [
+      "tun",
+      "to do",
+      "tat",
+      "getan",
+      " "
+    ],
+    [
+      "verderben",
+      "to spoil",
+      "verdarb",
+      "verdorben",
+      "e → i"
+    ],
+    [
+      "vergessen",
+      "to forget",
+      "vergaß",
+      "vergessen",
+      "e → i"
+    ],
+    [
+      "verlieren",
+      "to lose",
+      "verlor",
+      "verloren",
+      " "
+    ],
+    [
+      "wachsen",
+      "to grow",
+      "wuchs",
+      "gewachsen",
+      "a → ä"
+    ],
+    [
+      "waschen",
+      "to wash",
+      "wusch",
+      "gewaschen",
+      "a → ä"
+    ],
+    [
+      "weichen",
+      "to yield, give way",
+      "wich",
+      "gewichen",
+      " "
+    ],
+    [
+      "weisen",
+      "to indicate",
+      "wies",
+      "gewiesen",
+      " "
+    ],
+    [
+      "werben",
+      "to advertise",
+      "warb",
+      "geworben",
+      "e → i"
+    ],
+    [
+      "werden",
+      "to become",
+      "wurde",
+      "geworden",
+      "e → i; <i>irregular</i>: du wirst"
+    ],
+    [
+      "werfen",
+      "to throw",
+      "warf",
+      "geworfen",
+      "e → i"
+    ],
+    [
+      "wiegen",
+      "to weigh; to cradle",
+      "wog",
+      "gewogen",
+      " "
+    ],
+    [
+      "wissen",
+      "to know (a fact)",
+      "wusste",
+      "gewusst",
+      "i → ei <i>(<i>all singular forms</i>)</i>"
+    ],
+    [
+      "wollen",
+      "to want",
+      "wollte",
+      "gewollt",
+      "o → i <i>(<i>all singular forms</i>)</i>"
+    ],
+    [
+      "wringen",
+      "to wring",
+      "wrang",
+      "gewrungen",
+      " "
+    ],
+    [
+      "ziehen",
+      "to pull; to move",
+      "zog",
+      "gezogen",
+      " "
+    ],
+    [
+      "zwingen",
+      "to force",
+      "zwang",
+      "gezwungen",
+      " "
+    ]
+  ]
+}

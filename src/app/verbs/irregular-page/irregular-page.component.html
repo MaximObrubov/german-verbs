@@ -1,0 +1,28 @@
+<ng-container *ngIf="verbs.length; else noEntries">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Verb</th>
+        <th scope="col">Partizip II</th>
+        <th scope="col">Präteritum</th>
+        <th scope="col">Bedeutung</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let verb of verbs">
+        <tr>
+          <td>{{verb.verb}}</td>
+          <td>{{verb.past}}</td>
+          <td>{{verb.perf}}</td>
+          <td>{{verb.meaning}}</td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</ng-container>
+
+
+
+<ng-template #noEntries>
+  <div class="alert alert-warning">No entries found</div>
+</ng-template>

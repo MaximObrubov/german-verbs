@@ -4,7 +4,10 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h1 class="logo"><a href="">Deutsche Verben</a></h1>
+        <h1 class="logo">
+          <img src="" alt="">
+          <a href="">🇩🇪 Verben</a>
+        </h1>
         <app-navbar [links]="links"></app-navbar>
       </div>
     </div>
@@ -13,6 +16,9 @@
 </header>
 <div class="content">
   <div class="container">
+    <div class="title-box">
+      <h1 class="title">{{ title }}</h1>
+    </div>
     <div class="row">
       <div class="col-xs-12">
         <router-outlet></router-outlet>

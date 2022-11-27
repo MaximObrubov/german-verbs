@@ -1,4 +1,23 @@
+.header {
+  background-color: var(--accent-color);
+}
+
 .logo {
   display: inline-block;
   margin-right: 2em;
+  font-size: 1.4em;
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+}
+
+.title-box {
+  margin-bottom: 1.5em;
+
+  h1 {
+    font-size: 1.2em;
+  }
 }
