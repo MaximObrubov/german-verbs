@@ -37,7 +37,9 @@
     {"verb": "achten", "preposition": "auf", "casus": "acc.", "meaning": "watch, take care of"},
     {"verb": "ankommen", "preposition": "auf", "casus": "acc.", "meaning": "depend on"},
     {"verb": "antworten", "preposition": "auf", "casus": "acc.", "meaning": "answer to"},
-    {"verb": "aufpassen", "preposition": "auf", "casus": "acc.", "meaning": "take care of"},
+    {"verb": "aufpassen", "preposition": "auf", "casus": "acc.", "meaning": "take into account", "examples": [
+       "#Aufpass auf Fahrräder und Autos, bloss nicht auf dem Radweg laufen."
+    ]},
     {"verb": "basieren", "preposition": "auf", "casus": "dat.", "meaning": "base on", "examples": [
       "Der neue Programmversion basiert auf einer älteren."
     ]},
