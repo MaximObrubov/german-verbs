@@ -1,4 +1,5 @@
 <div class="game">
+  <app-statistics [attempts]="attempts" [errors]="errors"></app-statistics>
   <div class="game--variants">
     <app-radio-group (selectedEvent)="groupChanged($event, 'meaning')" name="meaning" [values]="meanings"></app-radio-group>
     <app-radio-group (selectedEvent)="groupChanged($event, 'verb')" name="verb" [values]="verbs"></app-radio-group>
@@ -18,4 +19,5 @@
       </div>
     </div>
   </ng-container>
+
 </div>

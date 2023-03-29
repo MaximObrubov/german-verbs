@@ -1,0 +1,8 @@
+<div class="game-statistics">
+    <ng-container *ngIf="attempts.length else noResults">
+      <span class="result {{resultKlass}}">{{ result.toFixed(1) }} %</span>
+    </ng-container>
+    <ng-template #noResults>
+      <div class="alert alert-info">Keine Ergebnisse wurden gegeben</div>
+    </ng-template>
+</div>

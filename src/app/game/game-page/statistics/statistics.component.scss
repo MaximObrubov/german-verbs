@@ -1,0 +1,12 @@
+.game-statistics {
+  margin-bottom: 1.5em;
+
+  .result {
+    font-size: 2.4em;
+    font-weight: bold;
+
+    &.good { color: var(--success-color); }
+    &.normal { color: orange; }
+    &.bad { color: var(--warning-color); }
+  }
+}

@@ -1,11 +1,7 @@
 .game {
-  border: 1px solid var(--accent-color);
   background: var(--primary-color);
   margin-bottom: 2rem;
-  border-radius: 0.5em;
   padding: 2em;
-  display: grid;
-  align-items: center;
   min-height: 80vh;
 
   &--variants {

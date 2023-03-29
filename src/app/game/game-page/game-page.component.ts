@@ -30,6 +30,10 @@ export class GamePageComponent implements OnInit {
   cassen: Array<string>;
   meanings: Array<string>;
   answer: Answer;
+
+  public attempts: Array<string> = [];
+  public errors: Array<string> = [];
+
   verbsWithPrepositions: Array<VerbWithPrepostion> = this.vs.random(this.VERBS_COUNT);
   rightAnswers: Array<string> = this.verbsWithPrepositions.map(v => {
     return this._stringifyVerbWithPreposition(v);
@@ -72,9 +76,12 @@ export class GamePageComponent implements OnInit {
         this.answersCount++;
         this._hideSelected();
       } else {
+        this.errors.push(this.answer.verb!);
         this._errorSelected();
       }
+      this.attempts.push(this.answer.verb!);
     }
+
 
     if (this.answersCount === this.VERBS_COUNT) {
       this.gifService.translate(this.CONGRAT_WORD).subscribe((congratResponse) => {
