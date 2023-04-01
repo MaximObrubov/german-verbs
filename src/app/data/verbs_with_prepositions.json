@@ -190,7 +190,9 @@
     {"verb": "abhängen", "preposition": "von", "casus": "dat.", "meaning": "depend on", "examples": ["Es #hängt von vielen Sachen ab."]},
     {"verb": "erfahren", "preposition": "von", "casus": "dat.", "meaning": "learn about"},
     {"verb": "erzählen", "preposition": "von", "casus": "dat.", "meaning": "tell about"},
-    {"verb": "halten", "preposition": "von", "casus": "dat.", "meaning": "think of"},
+    {"verb": "halten", "preposition": "von", "casus": "dat.", "meaning": "think of", "examples": [
+      "#Haltest du etwas davon?"
+    ]},
     {"verb": "handeln", "preposition": "von", "casus": "dat.", "meaning": "be about"},
     {"verb": "hören", "preposition": "von", "casus": "dat.", "meaning": "hear about", "examples": [
       "#Hast du von dem Umfall #gehört?"
@@ -199,19 +201,32 @@
       "Die Leute #leben von der Natur."
     ]},
     {"verb": "reden", "preposition": "von", "casus": "dat.", "meaning": "talk about", "examples": [
-      "Er #redet oft von seinen Eltern."
+      "Er #redet oft von seinen Eltern.",
+      "Wovon #redet ihr?"
     ]},
     {"verb": "schwermen", "preposition": "von", "casus": "dat.", "meaning": "be out of mind of"},
     {"verb": "träumen", "preposition": "von", "casus": "dat.", "meaning": "dream of"},
     {"verb": "verstehen", "preposition": "von", "casus": "dat.", "meaning": "skilled in"},
     {"verb": "wissen", "preposition": "von", "casus": "dat.", "meaning": "know about"},
 
-    {"verb": "Angst haben", "preposition": "vor", "casus": "dat.", "meaning": "have fear of"},
-    {"verb": "fliehen", "preposition": "vor", "casus": "dat.", "meaning": "run away from"},
-    {"verb": "flüchten", "preposition": "vor", "casus": "dat.", "meaning": "flee from"},
-    {"verb": "fliehen", "preposition": "vor", "casus": "dat.", "meaning": "flee from"},
-    {"verb": "schützen", "preposition": "vor", "casus": "dat.", "meaning": "protect from"},
-    {"verb": "warnen", "preposition": "vor", "casus": "dat.", "meaning": "warn of"},
+    {"verb": "Angst haben", "preposition": "vor", "casus": "dat.", "meaning": "have fear of", "examples": [
+      "Ich #habe #Angst vor Menschen."
+    ]},
+    {"verb": "fliehen", "preposition": "vor", "casus": "dat.", "meaning": "run away from", "examples": [
+      "Die Bürger #fliehen vor sozialen Umwälzungen"
+    ]},
+    {"verb": "flüchten", "preposition": "vor", "casus": "dat.", "meaning": "flee from", "examples": [
+      "Die Bürger #flüchten vor sozialen Umwälzungen"
+    ]},
+    {"verb": "fliehen", "preposition": "vor", "casus": "dat.", "meaning": "flee from", "examples": [
+      "Die Bürger #fliehen vor sozialen Umwälzungen"
+      ]},
+    {"verb": "schützen", "preposition": "vor", "casus": "dat.", "meaning": "protect from", "examples": [
+      "Die Regierung #schützt Bürger vor Menschen"
+    ]},
+    {"verb": "warnen", "preposition": "vor", "casus": "dat.", "meaning": "warn of", "examples": [
+      "Die Bürger #warnen vor sozialen Umwälzungen"
+    ]},
 
     {"verb": "einladen", "preposition": "zu", "casus": "dat.", "meaning": "invite to"},
     {"verb": "gehören", "preposition": "zu", "casus": "dat.", "meaning": "belong to"},
