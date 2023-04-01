@@ -1,11 +1,13 @@
 <div class="game">
-  <app-statistics [attempts]="attempts" [errors]="errors"></app-statistics>
+
   <div class="game--variants">
     <app-radio-group (selectedEvent)="groupChanged($event, 'meaning')" name="meaning" [values]="meanings"></app-radio-group>
     <app-radio-group (selectedEvent)="groupChanged($event, 'verb')" name="verb" [values]="verbs"></app-radio-group>
     <app-radio-group (selectedEvent)="groupChanged($event, 'preposition')" name="preposition" [values]="prepostions"></app-radio-group>
     <app-radio-group (selectedEvent)="groupChanged($event, 'casus')" name="casus" [values]="cassen"></app-radio-group>
   </div>
+  
+  <app-statistics [attempts]="attempts" [errors]="errors"></app-statistics>
 
   <ng-container *ngIf="congratGif">
     <!-- TODO: apply congratulations confetti https://codepen.io/andershoff/pen/ZwQRKv -->

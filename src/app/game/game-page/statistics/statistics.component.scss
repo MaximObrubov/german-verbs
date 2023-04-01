@@ -1,8 +1,8 @@
 .game-statistics {
-  margin-bottom: 1.5em;
+  padding-top: 2em;
+  color: var(--accent-color);
 
   .result {
-    font-size: 2.4em;
     font-weight: bold;
 
     &.good { color: var(--success-color); }

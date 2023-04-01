@@ -9,9 +9,9 @@ import { VerbWithPrepostion } from 'src/app/services/verb';
 export class StatisticsComponent implements OnInit {
 
   THRESHOLD = {
-    GOOD: 88,
-    NORM: 65,
-    BAD: 45
+    GOOD: 72,
+    NORM: 55,
+    BAD: 40
   }
 
   @Input() attempts: Array<string> = [];
