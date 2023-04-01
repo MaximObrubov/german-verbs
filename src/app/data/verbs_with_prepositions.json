@@ -95,7 +95,9 @@
 
 
 
-    {"verb": "einwilligen", "preposition": "in", "casus": "acc.", "meaning": "agree with"},
+    {"verb": "einwilligen", "preposition": "in", "casus": "acc.", "meaning": "agree with", "examples": [
+      "Herr X #hat in den Vorschlag #eingewilligt."
+    ]},
     {"verb": "geraten", "preposition": "in", "casus": "acc.", "meaning": "get into", "examples": [
       "Diese Geschichte wird nicht in Verlauf der Geschichte #geraten"
     ]},
@@ -226,7 +228,11 @@
     {"verb": "sich aufregen", "preposition": "über", "casus": "acc.", "meaning": "upset about"},
     {"verb": "sich begnügen", "preposition": "mit", "casus": "dat.", "meaning": "confine (myself)"},
     {"verb": "sich bedanken", "preposition": "bei", "casus": "dat.", "meaning": "thank someone"},
-    {"verb": "sich bedanken", "preposition": "für", "casus": "acc.", "meaning": "thank for"},
+
+    {"verb": "sich bedanken", "preposition": "für", "casus": "acc.", "meaning": "thank for", "examples": [
+      "Ich möchte mich bei Ihnen für Ihre wichtige Meinung #bedanken.",
+      "Er #bedankte sich für die Sauferei."
+    ]},
     {"verb": "sich bemühen", "preposition": "um", "casus": "acc.", "meaning": "strive for, be eager for"},
     {"verb": "sich beschäftigen", "preposition": "mit", "casus": "dat.", "meaning": "deal with, to concern with"},
     {"verb": "sich beschweren", "preposition": "bei", "casus": "dat.", "meaning": "complain to"},
@@ -245,7 +251,9 @@
     {"verb": "sich entschuldigen", "preposition": "bei", "casus": "dat.", "meaning": "apologize to"},
     {"verb": "sich erholen", "preposition": "von", "casus": "dat.", "meaning": "recover from"},
     {"verb": "sich erinnern", "preposition": "an", "casus": "acc.", "meaning": "recall / remember"},
-    {"verb": "sich erkundigen", "preposition": "nach", "casus": "dat.", "meaning": "ask about, be informed about"},
+    {"verb": "sich erkundigen", "preposition": "nach", "casus": "dat.", "meaning": "ask about, be informed about", "examples": [
+      "Es war ganz sinnlos, #sich danach zu #erkundigen."
+    ]},
     {"verb": "sich erkranken", "preposition": "an", "casus": "dat.", "meaning": "to be sick of", "examples": [
       "Er #erkrankt sich an SARS-CoV-2"
     ]},
@@ -259,12 +267,18 @@
     {"verb": "sich handeln", "preposition": "um", "casus": "acc.", "meaning": "be about"},
     {"verb": "sich informieren", "preposition": "über", "casus": "acc.", "meaning": "inform oneself about"},
     {"verb": "sich interessieren", "preposition": "für", "casus": "acc.", "meaning": "be interested in"},
-    {"verb": "sich irren", "preposition": "in", "casus": "dat.", "meaning": "be wrong about"},
+    {"verb": "sich irren", "preposition": "in", "casus": "dat.", "meaning": "be wrong about", "examples": [
+      "Entschuldigung, in der Hausaufgabe #habe ich #mich wohl #geirrt."
+    ]},
     {"verb": "sich konzentrieren", "preposition": "auf", "casus": "acc.", "meaning": "concentrate on"},
     {"verb": "sich kümmern", "preposition": "um", "casus": "acc.", "meaning": "take care of / care for"},
     {"verb": "sich schützen", "preposition": "vor", "casus": "dat.", "meaning": "protect oneself from"},
-    {"verb": "sich sehnen", "preposition": "nach", "casus": "dat.", "meaning": "yearn"},
-    {"verb": "sich sorgen", "preposition": "um", "casus": "acc.", "meaning": "worry about / for"},
+    {"verb": "sich sehnen", "preposition": "nach", "casus": "dat.", "meaning": "yearn", "examples": [
+      "#Sehne ich #mich nur danach, unsterblich zu sein"
+    ]},
+    {"verb": "sich sorgen", "preposition": "um", "casus": "acc.", "meaning": "worry about / for", "examples": [
+      "Man muss #sich nicht um jede Kleinigkeit #sorgen."
+    ]},
     {"verb": "sich streiten", "preposition": "mit", "casus": "dat.", "meaning": "argue with"},
     {"verb": "sich täuschen", "preposition": "in", "casus": "dat.", "meaning": "be disapointed in (smth)"},
     {"verb": "sich treffen", "preposition": "mit", "casus": "dat.", "meaning": "meet with"},

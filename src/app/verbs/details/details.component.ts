@@ -27,11 +27,11 @@ export class DetailsComponent implements OnInit {
     return this.wikiBaseURL + this.verb.verb;
   }
 
-  showGif() {
-    this.gifService.translate(this.verb.meaning).subscribe((response) => {
-      this.verbGifSrc = (response as GifResponse).data.images.downsized_large.url;
-    })
-  }
+  // showGif() {
+  //   this.gifService.translate(this.verb.meaning).subscribe((response) => {
+  //     this.verbGifSrc = (response as GifResponse).data.images.downsized_large.url;
+  //   })
+  // }
 
   exampleHTML(example: string) {
     const verbReg = new RegExp(`#([a-zA-ZäöüÄÖÜß]+)`, "ig");

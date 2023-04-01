@@ -15,7 +15,7 @@
   --primary-hover-color: #694c8c;
   --border-color: #eee;
   --accent-color: rgb(170 129 216);
-  --accent-hover-color: rgb(20, 89, 110);
+  --accent-hover-color: rgb(125, 77, 180);
   --success-color: rgb(109, 173, 36);
   --selected-color: #611dcf;
   --warning-color: rgb(202 74 74);
@@ -32,6 +32,12 @@ html, body {
   font-size: 16px;
   color: var(--text-main-color);
   scroll-behavior: smooth;
+}
+
+::selection {
+  color: white;
+  font-weight: bold;
+  background: var(--accent-color);
 }
 
 body {
@@ -130,6 +136,7 @@ textarea.ng-touched {
   border: 0 !important;
   box-shadow: none !important;
   text-shadow: none !important;
+  background-image: none;
 }
 
 .btn.btn-primary {

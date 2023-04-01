@@ -25,4 +25,8 @@ export class AppComponent {
   public get title(): string {
     return this.titleService.getTitle();
   }
+
+  public get year(): number {
+    return new Date().getFullYear();
+  }
 }

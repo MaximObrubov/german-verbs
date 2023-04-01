@@ -1,7 +1,3 @@
-
-<app-fast-nav></app-fast-nav>
-<app-search></app-search>
-
 <div class="verbs">
   <div [id]="prep" class="preposition-verbs-wrp" *ngFor="let prep of prepositions">
     <ng-container *ngIf="verbs[prep].length > 0; else noVerbs">
