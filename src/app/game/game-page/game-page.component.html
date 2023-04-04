@@ -1,4 +1,4 @@
-<div class="game">
+<div [ngClass]="{game: true, congrat: isCongrat}">
 
   <div class="game--variants">
     <app-radio-group (selectedEvent)="groupChanged($event, 'meaning')" name="meaning" [values]="meanings"></app-radio-group>
@@ -6,16 +6,27 @@
     <app-radio-group (selectedEvent)="groupChanged($event, 'preposition')" name="preposition" [values]="prepostions"></app-radio-group>
     <app-radio-group (selectedEvent)="groupChanged($event, 'casus')" name="casus" [values]="cassen"></app-radio-group>
   </div>
-  
+
   <app-statistics [attempts]="attempts" [errors]="errors"></app-statistics>
 
-  <ng-container *ngIf="congratGif">
+  <ng-container *ngIf="isCongrat">
     <!-- TODO: apply congratulations confetti https://codepen.io/andershoff/pen/ZwQRKv -->
     <div class="game--congrat">
-      <h1>Congratulations! U made it!</h1>
-      <div class="game--congrat-img">
-        <img [src]="congratGif" />
+      <h1>Gratuliere!</h1>
+
+      <p>Das Spiel ist beendet.</p>
+
+      <div class="errors" *ngIf="errors.length else noErrors">
+        <p>Die folgenden Fehler wurden gemacht</p>
+        <ol >
+          <li class="errors__error" *ngFor="let verb of errors">{{verb}}</li>
+        </ol>
       </div>
+
+      <ng-template #noErrors>
+        <div class="alert">Du hast keine Fehler!</div>
+      </ng-template>
+
       <div>
         <button class="btn btn-success btn-lg" (click)="reload()">Run again!</button>
       </div>

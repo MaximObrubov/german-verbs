@@ -21,7 +21,7 @@ export interface Answer {
 })
 export class GamePageComponent implements OnInit {
 
-  VERBS_COUNT = 10;
+  VERBS_COUNT = 9;
   answersCount = 0;
   CONGRAT_WORD = "success";
   congratGif: string | null = null;
@@ -33,6 +33,8 @@ export class GamePageComponent implements OnInit {
 
   public attempts: Array<string> = [];
   public errors: Array<string> = [];
+
+  private _isFinished: boolean = false;
 
   verbsWithPrepositions: Array<VerbWithPrepostion> = this.vs.random(this.VERBS_COUNT);
   rightAnswers: Array<string> = this.verbsWithPrepositions.map(v => {
@@ -84,14 +86,19 @@ export class GamePageComponent implements OnInit {
 
 
     if (this.answersCount === this.VERBS_COUNT) {
-      this.gifService.translate(this.CONGRAT_WORD).subscribe((congratResponse) => {
-        this.congratGif = (congratResponse as GifResponse).data.images.original.url;
-      });
+      this._isFinished = true;
+      // this.gifService.translate(this.CONGRAT_WORD).subscribe((congratResponse) => {
+      //   this.congratGif = (congratResponse as GifResponse).data.images.original.url;
+      // });
     }
   }
 
   reload() {
     window.location.reload();
+  }
+
+  public get isCongrat(): boolean {
+    return this._isFinished;
   }
 
   _checkAnswer(): boolean {

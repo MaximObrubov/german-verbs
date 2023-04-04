@@ -204,10 +204,15 @@
       "Er #redet oft von seinen Eltern.",
       "Wovon #redet ihr?"
     ]},
-    {"verb": "schwermen", "preposition": "von", "casus": "dat.", "meaning": "be out of mind of"},
+    {"verb": "schwermen", "preposition": "von", "casus": "dat.", "meaning": "be out of mind of", "examples": [
+      "Andy #schwermt von Nintendo-Spielen"
+    ]},
     {"verb": "träumen", "preposition": "von", "casus": "dat.", "meaning": "dream of"},
     {"verb": "verstehen", "preposition": "von", "casus": "dat.", "meaning": "skilled in"},
-    {"verb": "wissen", "preposition": "von", "casus": "dat.", "meaning": "know about"},
+    {"verb": "wissen", "preposition": "von", "casus": "dat.", "meaning": "know about", "examples": [
+      "Martha #weiß nicht von dem Zeug",
+      "Ich #habe davon nicht #gewusst"
+    ]},
 
     {"verb": "Angst haben", "preposition": "vor", "casus": "dat.", "meaning": "have fear of", "examples": [
       "Ich #habe #Angst vor Menschen."

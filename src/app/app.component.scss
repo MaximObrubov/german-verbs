@@ -1,23 +1,35 @@
-.header {
-  background-color: var(--accent-color);
-}
+:host {
 
-.logo {
-  display: inline-block;
-  margin-right: 2em;
-  font-size: 1.4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 
-  a {
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
+  .header {
+    background-color: var(--accent-color);
   }
-}
 
-.title-box {
-  margin-bottom: 1.5em;
+  .logo {
+    display: inline-block;
+    margin-right: 2em;
+    font-size: 1.4em;
 
-  h1 {
-    font-size: 1.2em;
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+    }
+  }
+
+  .footer {
+    padding: 2em 0;
+  }
+
+  .title-box {
+    margin-bottom: 1.5em;
+
+    h1 {
+      font-size: 1.2em;
+    }
   }
 }
