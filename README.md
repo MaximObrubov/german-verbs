@@ -2,9 +2,9 @@
 Some stuff about german verbs. [^_^](https://maximobrubov.github.io/german-verbs/)
 
 ## Plans
-2. Create a match game to learn verbs with prepositions faster
-3. Add page for irregular verbs and search
-4. Probably use [capacitor](https://betterprogramming.pub/how-to-convert-your-angular-application-to-a-native-mobile-app-android-and-ios-c212b38976df) to deploy app to mobile platforms 
+1. Add a logic to learn irregular verbs
+2. add search input for irregular verbs
+3. Probably use [capacitor](https://betterprogramming.pub/how-to-convert-your-angular-application-to-a-native-mobile-app-android-and-ios-c212b38976df) to deploy app to mobile platforms 
 
 Just a simple stuff to make learning german faster and funnier!
 
